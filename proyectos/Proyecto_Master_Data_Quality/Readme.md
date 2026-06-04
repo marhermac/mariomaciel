@@ -117,8 +117,8 @@ La falta de consistencia en el archivo maestro afecta directamente los siguiente
 
 
 <p align="center">
-  <img src="proyectos/Proyecto_Master_Data_Quality/imagenes/grafico indice cobertura.png" alt="Gráfico de Cobertura por Categoría" width="45%"/>
-  <img src="proyectos/Proyecto_Master_Data_Quality/imagenes/grafico promedio de cobertura de informacion.png" alt="Gráfico de Clasificación de Atributos" width="45%"/>
+  <img src="imagenes/grafico indice cobertura.png" alt="Gráfico de Cobertura por Categoría" width="45%"/>
+  <img src="imagenes/grafico promedio de cobertura de informacion.png" alt="Gráfico de Clasificación de Atributos" width="45%"/>
 </p>
 
 ---
