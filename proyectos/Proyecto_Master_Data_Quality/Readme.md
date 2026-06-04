@@ -1,196 +1,248 @@
-\# Data Quality Assessment of a Logistics Master Data File
+Evaluación de la calidad de los datos de un archivo maestro de logística
 
+Resumen del proyecto
 
 
-\## Descripción del Dataset
 
+Este proyecto analiza la calidad y la exhaustividad de un archivo maestro de datos logísticos utilizado para la gestión de inventarios, el almacenamiento y la distribución.
 
 
-Este proyecto utiliza un maestro de artículos anonimizado proveniente de operaciones logísticas y de almacenamiento.
 
+El objetivo es evaluar la calidad de la información disponible, identificar los datos faltantes y determinar si los atributos más relevantes para la toma de decisiones operativas se mantienen correctamente.
 
 
-El dataset contiene información utilizada para la gestión de inventarios, almacenamiento y distribución de productos, incluyendo atributos descriptivos, logísticos y operativos.
 
+Descripción del conjunto de datos
 
 
-\### Información disponible
 
+El conjunto de datos contiene información maestra de productos anonimizada procedente de las operaciones logísticas.
 
 
-\* Código de artículo
 
-\* Descripción del producto
+Tamaño del conjunto de datos
 
-\* Familia de artículos
+Registros analizados: 34
 
-\* Categorías y subcategorías
+Atributos analizados: 75
 
-\* Peso
+Total de celdas evaluadas: 2550
 
-\* Dimensiones
+Información disponible
 
-\* Información de palletizado
+Códigos de producto
 
-\* Datos de almacenamiento
+Descripciones de producto
 
-\* Stock mínimo
+Familias y categorías de productos
 
-\* Unidades de medida
+Códigos de barras
 
-\* Datos de clientes y empresas (anonimizados)
+Dimensiones
 
+Información de peso
 
+Información de volumen
 
-\## Objetivo del Proyecto
+Datos de ubicación del almacén
 
+Parámetros de inventario
 
+Información del cliente
 
-Analizar la calidad y consistencia de los datos maestros para identificar:
+Atributos financieros
 
+Datos de paletización
 
+Metodología
 
-\* Registros incompletos
 
-\* Campos con valores faltantes
 
-\* Inconsistencias en nomenclaturas
+El análisis se desarrolló en cuatro etapas:
 
-\* Posibles duplicados
 
-\* Oportunidades de estandarización
 
+1\. Perfilado de datos
 
 
-\## Problema de Negocio
 
+Se realizó una evaluación inicial para determinar:
 
 
-Los datos maestros son la base de los procesos logísticos y de gestión de inventarios. Un maestro de materiales incompleto o inconsistente puede generar errores operativos que afectan el almacenamiento, la planificación de compras, la distribución y el control de stock.
 
+Número de registros
 
+Número de atributos
 
-Este proyecto busca responder la siguiente pregunta:
+Total de celdas analizadas
 
+Valores faltantes
 
+Información disponible
 
-\*\*¿La calidad de los datos del maestro de materiales es suficiente para soportar operaciones logísticas confiables y eficientes?\*\*
+2\. Evaluación de la cobertura de datos
 
 
 
-\## Riesgos Asociados a Datos Defectuosos
+El índice de cobertura general se calculó mediante:
 
 
 
-Un maestro de materiales de baja calidad puede provocar:
+Índice de cobertura = Celdas con información / Total de celdas
 
 
 
-\* Errores en la ubicación de productos.
+Resultados:
 
-\* Problemas de almacenamiento por dimensiones incorrectas.
+Celdas con información: 952
 
-\* Cálculos erróneos de capacidad de transporte.
+Celdas vacías: 1598
 
-\* Duplicación de artículos.
+Índice de cobertura general: 37,33 %
 
-\* Compras innecesarias.
+3\. Clasificación de atributos
 
-\* Diferencias de inventario.
 
-\* Reportes operativos incorrectos.
 
-\* Dificultades en la búsqueda y clasificación de materiales.
+Los 75 atributos se clasificaron según su relevancia operativa.
 
 
 
-\## Metodología de Análisis
+Resultados de la clasificación
 
+Nivel de relevancia Número de atributos
 
+Crítico 16
 
-Para evaluar la calidad del dataset se analizarán los siguientes aspectos:
+Alto 31
 
+Medio 8
 
+Bajo 20
 
-\### 1. Completitud de los Datos
+Total 75
 
 
 
-\* Identificación de campos vacíos.
+Se identificaron un total de 47 atributos (Críticos + Altos) que impactan directamente en las operaciones de logística e inventario.
 
-\* Porcentaje de completitud por columna.
 
-\* Detección de atributos críticos faltantes.
 
+4\. Análisis de cobertura por categoría de negocio
 
 
-\### 2. Consistencia de la Información
 
+Los atributos se agruparon en categorías funcionales:
 
 
-\* Revisión de nomenclaturas.
 
-\* Identificación de diferencias de formato.
+Identificación de materiales
 
-\* Validación de categorías y familias de productos.
+Clasificación de materiales
 
+Logística y dimensiones
 
+Inventario y reabastecimiento
 
-\### 3. Detección de Duplicados
+Organización y clientes
 
+Paletización
 
 
-\* Búsqueda de registros potencialmente repetidos.
 
-\* Comparación de descripciones similares.
+La cobertura se evaluó a nivel de categoría para determinar dónde se concentran los problemas de calidad de los datos.
 
 
 
-\### 4. Validación de Datos Logísticos
+Principales hallazgos
 
+Cobertura general de datos
 
 
-\* Verificación de pesos.
 
-\* Verificación de dimensiones.
+Aunque el conjunto de datos presenta una tasa de cobertura general relativamente baja (37,33 %), el análisis mostró que la calidad de los datos varía significativamente según el área de negocio.
 
-\* Revisión de información de palletizado.
 
 
+Cobertura por categoría
 
-\## Herramientas Utilizadas
+Categoría Cobertura promedio
 
+Logística y dimensiones 100,00 %
 
+Identificación de materiales 71,43 %
 
-\* Microsoft Excel
+Organización y clientes 71,43 %
 
-\* SQL
+Inventario y reabastecimiento 40,00 %
 
-\* Python (opcional)
+Clasificación de materiales 33,33 %
 
+Paletización 0,00 %
 
 
-\## Aplicación Práctica
 
+Observaciones principales
 
 
-Este tipo de análisis es utilizado en procesos de:
 
+Los atributos de logística muestran el mayor nivel de completitud.
 
+Los datos de identificación de materiales presentan niveles de cobertura aceptables.
 
-\* Data Quality
+La información relacionada con el inventario muestra oportunidades de mejora.
 
-\* Master Data Management
+Los atributos de paletización no están completos.
 
-\* Inventory Control
+La calidad de los datos es desigual entre las categorías y debe gestionarse según su relevancia para el negocio. Impacto en el negocio
 
-\* Supply Chain Management
 
-\* Warehouse Management Systems (WMS)
 
+La calidad de los datos maestros afecta directamente a:
 
 
-La mejora continua de los datos maestros contribuye directamente a la eficiencia operativa y a la toma de decisiones basada en datos confiables.
 
+Precisión del inventario
 
+Operaciones de almacén
+
+Trazabilidad del producto
+
+Utilización del espacio
+
+Planificación de reabastecimiento
+
+Visibilidad de la cadena de suministro
+
+
+
+Los datos maestros incompletos o inconsistentes pueden generar ineficiencias operativas y reducir la fiabilidad en la toma de decisiones.
+
+
+
+Herramientas utilizadas
+
+Microsoft Excel / Hoja de cálculo WPS
+
+Tablas dinámicas
+
+Técnicas de perfilado de datos
+
+Métricas de calidad de datos
+
+
+
+Conclusión
+
+
+
+El análisis reveló que, si bien la cobertura general de datos es limitada, la información más relevante para las operaciones presenta una calidad significativamente superior a la media del conjunto de datos.
+
+
+
+Esto subraya la importancia de evaluar la calidad de los datos no solo en función de la exhaustividad general, sino también de la relevancia para el negocio de cada atributo.
+
+
+
+La metodología aplicada proporciona un marco práctico para evaluar la calidad de los datos maestros en entornos de logística y cadena de suministro.
 
