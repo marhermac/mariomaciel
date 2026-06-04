@@ -1,8 +1,5 @@
 # 📊 Evaluación de la Calidad de Datos - Archivo Maestro de Logística
 
-![GitHub Lizenz](https://shields.io)
-![Category](https://shields.io)
-![Tools](https://shields.io)
 
 Este proyecto analiza la **calidad y exhaustividad** de un archivo maestro de datos logísticos utilizado para la gestión de inventarios, almacenamiento y distribución. El objetivo es identificar datos faltantes y medir el impacto de los atributos críticos en la toma de decisiones operativas.
 
@@ -118,11 +115,10 @@ La falta de consistencia en el archivo maestro afecta directamente los siguiente
 
 ## 🖼️ Visualizaciones
 
-> 💡 **Nota para el usuario:** Para mostrar tus gráficos aquí, guarda las imágenes en la carpeta raíz de tu repositorio (por ejemplo, con los nombres `cobertura.png` y `clasificacion.png`) y asegúrate de que los nombres coincidan abajo.
 
 <p align="center">
-  <img src="cobertura.png" alt="Gráfico de Cobertura por Categoría" width="45%"/>
-  <img src="clasificacion.png" alt="Gráfico de Clasificación de Atributos" width="45%"/>
+  <img src="proyectos/Proyecto_Master_Data_Quality/imagenes/grafico indice cobertura.png" alt="Gráfico de Cobertura por Categoría" width="45%"/>
+  <img src="proyectos/Proyecto_Master_Data_Quality/imagenes/grafico promedio de cobertura de informacion.png" alt="Gráfico de Clasificación de Atributos" width="45%"/>
 </p>
 
 ---
