@@ -63,6 +63,70 @@
             margin-bottom: 1.5rem;
         }
 
+        /* ESTILOS PARA LAS TARJETAS DE MICROSOFT LEARN */
+        .learn-badges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .learn-badge-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.25rem;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s;
+        }
+
+        .learn-badge-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .learn-badge-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .learn-tag-source {
+            font-size: 0.75rem;
+            color: #64748b;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .learn-badge-card h3 {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            margin: 0 0 1rem 0;
+            line-height: 1.4;
+        }
+
+        .learn-badge-btn {
+            display: inline-block;
+            text-align: center;
+            background-color: #0078d4;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .learn-badge-btn:hover {
+            background-color: #005a9e;
+        }
+
         /* CUADRICULA DE CREDENCIALES */
         .badges-container {
             display: grid;
@@ -375,7 +439,59 @@
             Actualmente avanzando en la ruta oficial de Microsoft
             para Data Analyst (PL-300).
         </p>
+        <h3>Credenciales y Logros Oficiales de Microsoft Learn</h3>
+        
+        <div class="learn-badges-grid">
+          <!-- Logro 1 -->
+          <div class="learn-badge-card">
+            <div class="learn-badge-header">
+              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+              <span class="learn-tag-source">Microsoft Learn</span>
+            </div>
+            <h3>Trabajar con modelos semánticos en Microsoft Fabric</h3>
+            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/U7F5U7U3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+          </div>
 
+          <!-- Logro 2 -->
+          <div class="learn-badge-card">
+            <div class="learn-badge-header">
+              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+              <span class="learn-tag-source">Microsoft Learn</span>
+            </div>
+            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
+            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/NQ79K2BF?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+          </div>
+
+          <!-- Logro 3 -->
+          <div class="learn-badge-card">
+            <div class="learn-badge-header">
+              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+              <span class="learn-tag-source">Microsoft Learn</span>
+            </div>
+            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
+            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/JH6EF5ST?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+          </div>
+
+          <!-- Logro 4 -->
+          <div class="learn-badge-card">
+            <div class="learn-badge-header">
+              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+              <span class="learn-tag-source">Microsoft Learn</span>
+            </div>
+            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
+            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/9RES3JTU?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+          </div>
+
+          <!-- Logro 5 -->
+          <div class="learn-badge-card">
+            <div class="learn-badge-header">
+              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+              <span class="learn-tag-source">Microsoft Learn</span>
+            </div>
+            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
+            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/UAP5HBJ3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+          </div>
+        </div>
     
     
       <!-- IBM SQL CERTIFICATION -->
