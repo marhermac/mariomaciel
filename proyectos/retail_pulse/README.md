@@ -19,3 +19,5 @@ El proyecto genera reportes ejecutivos listos para la toma de decisiones comerci
 - `Informe_Ejecutivo_Carrefour_Overprice.xlsx`
 - `Informe_Ejecutivo_Coto_Overprice.xlsx`
 - `Informe_Ejecutivo_Jumbo_Overprice.xlsx`
+
+- `Para descargar los archivos estan en la carpeta outputs`
