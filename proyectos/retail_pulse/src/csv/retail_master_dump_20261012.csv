@@ -1,0 +1,651 @@
+﻿retailer,ean,product_name,brand,list_price,price,available
+Carrefour,7791720048726,Azúcar común Bulnez 1 kg,Bulnez,1350.0,1350.0,True
+Carrefour,7790580146115,Puré de tomate Arcor brik 520 g.,Arcor,1220.0,1220.0,True
+Carrefour,7790742363107,Leche La serenisima liviana 1% 1L,La Serenísima,2915.0,2915.0,True
+Carrefour,7790742363008,Leche La serenisima clásica 3% 1L,La Serenísima,2915.0,2915.0,True
+Carrefour,7791720029411,Leche UAT parcialmente descremada Carrefour classic brik 1 lt.,Carrefour,2390.0,2390.0,True
+Carrefour,7791720029404,Leche UAT entera Carrefour classic brik 1 lt.,Carrefour,2390.0,2390.0,True
+Carrefour,7790742358608,Leche Protein La Serenisima 1L,La Serenísima,3119.0,2079.0,True
+Carrefour,2505271000004,Queso cuartirolo Tremblay x kg.,Tremblay,11999.0,11999.0,True
+Carrefour,7798033333907,Lomito de atún al natural Carrefour Classic 170 grs,Carrefour,3290.0,3059.7,True
+Carrefour,7793940054006,Manteca La Serenísima extra para untar 200 g.,La Serenísima,5010.0,5010.0,True
+Carrefour,2320056000006,Cebolla x kg.,Genérico,3699.0,3699.0,True
+Carrefour,7798338291803,Leche con proteina Las Tres Niñas Vida Activa 1 lt,Las Tres Niñas,3119.0,3119.0,True
+Carrefour,7792798015290,Cerveza blanca Quilmes Bajo cero en lata 473 ml,Quilmes,1673.0,1673.0,True
+Carrefour,7791337010017,Yogur Griego natural sin endulzar Yogurísimo 300 grs,Yogurísimo,5159.0,5159.0,True
+Carrefour,7791720036365,Jamón cocido feteado Bulnez 150 grs,Bulnez,3700.0,2490.0,True
+Carrefour,7791813828464,Gaseosa cola Pepsi Black pet 2 lts,Pepsi,4400.0,3520.0,True
+Carrefour,7790040143944,Galletitas crackers Traviata + Kesitas 96 g,Traviata,1035.0,1035.0,True
+Carrefour,7790990003039,Detergente Magistral Ultra Limón Botella 500 ml,Magistral,4407.69,2865.0,True
+Carrefour,7790040143234,Galletitas Chocolina de chocolate 250 g.,Chocolinas,2830.77,2830.77,True
+Carrefour,7790070336309,Fideos spaghetti N3 Matarazzo 500 g.,Matarazzo,2099.0,2099.0,True
+Carrefour,7799155000197,Agua mineral sin gas Villavicencio 2 lts,Villavicencio,3046.15,3046.15,True
+Carrefour,7791720029473,Leche parcialmente descremada UAT Carrefour classic tetra 1 lt.,Carrefour,2390.0,2390.0,True
+Carrefour,2508844000005,Banana selección x kg.,Genérico,1999.0,1999.0,True
+Carrefour,7622201703141,"Jugo en Polvo Clight Naranja Dulce 7,5 grs",Tang,625.0,625.0,True
+Carrefour,7622201703080,Jugo en Polvo Clight Manzana Deliciosa 7 grs,Clight,625.0,625.0,True
+Carrefour,2507579000007,Suprema congelada x kg,Genérico,13300.0,7890.0,True
+Carrefour,2646700000001,Palta x uni,Genérico,1199.0,999.0,True
+Carrefour,7794000006072,Mayonesa Clásica Hellmanns sin tacc doypack 475 g.,Hellmanns,2999.0,2999.0,True
+Carrefour,7791720025543,Rollo de cocina Carrefour Essential maxi blanco x 200 paños,Carrefour,3090.0,2781.0,True
+Carrefour,7793913012996,Leche descremada uat Tregar brik 1 l.,Tregar,2550.0,2550.0,True
+Carrefour,7791720025123,Aceite de girasol alto omega Carrefour Classic pet 15 lts,Carrefour,5750.0,5405.0,True
+Carrefour,7790742348302,Leche La Serenísima ultra entera multivit 3% sachet 1 lt,La Serenísima,2049.0,2049.0,True
+Carrefour,2506117000004,Picada especial de Novillito x kg,Genérico,12990.0,12990.0,True
+Carrefour,7790387015317,Yerba mate Mañanita bajo polvo 4flex 1 kg,Mañanita,5370.0,5370.0,True
+Carrefour,7790742333605,Leche UAT Zero lactosa La Serenisima 1L,La Serenísima,3119.0,2079.0,True
+Carrefour,2505266000002,Queso cremoso Cremac x kg.,Cremac,13260.0,13260.0,True
+Carrefour,7798338290028,Leche entera larga vida Las tres niñas 1 l.,Las Tres Niñas,2860.0,1999.0,True
+Carrefour,7793913001822,Leche entera larga vida Tregar 1 l.,Tregar,2550.0,2550.0,True
+Carrefour,7792540250450,Azúcar Ledesma molida superior bolsa 1 kg.,Ledesma,1569.0,1569.0,True
+Carrefour,7798141711031,Puré de tomate Carrefour classic 520 g.,Carrefour,859.0,773.1,True
+Carrefour,2300397000002,Manzana roja x kg.,Genérico,4999.0,2890.0,True
+Carrefour,2300377000008,Tomate x kg.,Genérico,4499.0,4499.0,True
+Carrefour,7790895067570,"Gaseosa cola Coca Cola Zero 2,25 lts",Coca Cola,6000.0,6000.0,True
+Carrefour,2304652000004,Naranja de jugo x kg.,Genérico,899.0,899.0,True
+Carrefour,7798033333891,Lomito de atún en aceite Carrefour Classic 170 grs,Carrefour,3290.0,3059.7,True
+Carrefour,7791120031557,Arroz largo fino Molinos Ala 1 kg.,Molinos Ala,1950.0,1950.0,True
+Carrefour,2320003000004,Limón x kg.,Genérico,1499.0,1499.0,True
+Carrefour,7790742352101,Leche ultra descremada La Serenísima Protein sachet 1 lt,La Serenísima,2379.0,2379.0,True
+Carrefour,7791720049693,Leche liviana UAT clásica Bulnez 1 lt,Bulnez,1890.0,1890.0,True
+Carrefour,7791720049686,Leche clásica UAT Bulnez 1 lt,Bulnez,1890.0,1890.0,True
+Carrefour,7791337009998,Yogur Griego natural sin endulzar Yogurísimo 190 grs,Yogurísimo,3435.0,3435.0,True
+Carrefour,7791337009950,Yogur Griego sabor vainilla Yogurísimo 140 grs,Yogurísimo,2360.0,2360.0,True
+Carrefour,7791337009943,Yogur Griego sabor frutilla Yogurísimo 140 grs,Yogurísimo,2360.0,2360.0,True
+Carrefour,7791337009677,Yogur batido Ser PRO + con proteínas sabor frutos rojos 175 grs,Ser,3565.0,3565.0,True
+Carrefour,7791337009660,Yogur batido Ser PRO+ con proteínas sabor natural 175 grs,Ser,3565.0,3565.0,True
+Carrefour,7793890261486,Pan Integral Fargo 400 grs,Fargo,6020.0,6020.0,True
+Carrefour,7790040143920,Galletitas crackers Traviata Rex x3 288 grs,Traviata,2875.0,2875.0,True
+Carrefour,7793253006709,Lavandina clásica desinfectante Ayudín 2 lts.,Ayudín,2925.0,2925.0,True
+Carrefour,7790040143937,Galletitas crackers Traviata + Rex original 96 g,Traviata,949.0,949.0,True
+Carrefour,7791293051208,Jabon en Barra Dove Original Individual 90 grs,Dove,2739.0,2739.0,True
+Carrefour,7791720033593,Atún en trozos al natural Bulnez en lata 170 g.,Bulnez,2990.0,2990.0,True
+Carrefour,7791813434412,"Gaseosa lima limón 7 Up sin azúcar 1,5 lts",7 Up,3950.0,3160.0,True
+Carrefour,7791813888468,Gaseosa cola regular Pepsi 2 lts.,Pepsi,4400.0,3520.0,True
+Carrefour,7790040143524,Galletitas chocolate rellena de vainillas Rumba x3 330 grs,Rumba,4839.0,4839.0,True
+Carrefour,7791720032923,Papel higiénico hoja simple Carrefour Essential x4 80 mts.,Carrefour,5650.0,3591.0,True
+Carrefour,7791720036273,Puré de tomates Bulnez 520 g.,Bulnez,859.0,859.0,True
+Carrefour,7790580138868,Puré de tomate La Campagnola tetra 530 g.,La Campagnola,1400.0,1400.0,True
+Carrefour,7790040144095,Galletitas clásicas Traviata x5 108 g,Traviata,3345.0,3345.0,True
+Carrefour,7794000008557,Caldo Knorr de verdura deshidratado 12 cubos,Knorr,2990.0,2990.0,True
+Carrefour,7790250015536,Papel higiénico doble hoja Higienol plus x4 30 mts,Higienol,4550.0,4550.0,True
+Carrefour,7791720033074,Arroz largo fino 00000 Carrefour Classic en bolsa 1 kg.,Carrefour,1490.0,1370.8,True
+Carrefour,7790070622044,Tapa para pascualina hojaldre La salteña 2 uni,La Salteña,2840.0,2840.0,True
+Carrefour,7790070622037,Tapa para pascualina La salteña criolla 2 uni,La Salteña,2840.0,2840.0,True
+Carrefour,7791720030073,Arvejas secas remojadas Carrefour classic en lata 300 g.,Carrefour,729.0,648.81,True
+Carrefour,7790070336316,Fideos tallarines Matarazzo 500 grs,Matarazzo,2099.0,2099.0,True
+Carrefour,7793913013511,Queso rallado Tregar 120 g,Tregar,5849.0,5849.0,True
+Carrefour,7791720029947,Soda Carrefour Classic sifón 2 lts,Carrefour,1990.0,1830.8,True
+Carrefour,7791337061361,Queso crema clásico Casancrem 290 grs,Casancrem,5995.0,5995.0,True
+Carrefour,7790070336217,Fideos mostacholes N52 Matarazzo rayado 500 g.,Matarazzo,2099.0,2099.0,True
+Carrefour,7790250026075,Papel higiénico Elite Ultra Suave doble hoja 30 mts 4 uni,Elite,4609.0,4609.0,True
+Carrefour,7791720029466,Leche entera UAT Carrefour classic tetra 1 lt.,Carrefour,2390.0,2390.0,True
+Carrefour,7799155000135,"Agua de mesa sin gas Villa del Sur bidón 6,2 lts",Villa Del Sur,5099.0,5099.0,True
+Carrefour,7622201745905,Galletitas crackers Cerealitas clásicas 636 g.,Cerealitas,5869.0,5869.0,True
+Carrefour,7622201761288,Galletitas Oreo Mini rellenas con crema sabor original 50 g.,Oreo,1149.0,1149.0,True
+Carrefour,7791720029756,Leche ulta parcial descremada Carrefour classic sachet 1 lt.,Carrefour,1890.0,1776.6,True
+Carrefour,7791720029749,Leche ultra entera Carrefour classic sachet 1 lt.,Carrefour,1890.0,1776.6,True
+Carrefour,7791290794092,Detergente Cif Bioactive Lima Doypack 450 ml,Cif,3850.0,3850.0,True
+Carrefour,7790070431417,Arroz parboil Gallo oro en bolsa 1 kg,Gallo,2979.0,2979.0,True
+Carrefour,7509546686523,Pasta dental Colgate triple beneficio 90 g.,Colgate,4155.0,4155.0,True
+Carrefour,7791720028292,"Agua mineral Carrefour bidón 6,25 lts",Carrefour,4190.0,3159.5,True
+Carrefour,7622201735883,Galletitas Pepitos con chips de chocolate 357 g. Pack x3 de 119 g.,Pepitos,6279.0,6279.0,True
+Carrefour,7622201735258,Galletitas Oreo Rellenas con crema sabor original 354 g.,Oreo,6650.0,6650.0,True
+Carrefour,7622201735296,Galletitas dulces Oreo rellenas con crema 118 g.,Oreo,2469.0,2469.0,True
+Carrefour,7794000007109,Mayonesa liviana Hellmanns dp 475 g,Hellmanns,2999.0,2249.0,True
+Carrefour,7622201703172,Jugo en Polvo Clight Pomelo Rosado 8 grs,Tang,625.0,625.0,True
+Carrefour,7622201703110,Jugo en Polvo Clight Naranja 8 grs,Clight,625.0,625.0,True
+Carrefour,7622201702656,Jugo en Polvo Clight Limonada 8 grs,Clight,625.0,625.0,True
+Carrefour,7794000006478,Mostaza Savora original doypack 250 g.,Savora,1729.0,1729.0,True
+Carrefour,7791290792838,Jabón Liquido para Diluir Skip Bio-Enzimas 500 ml,Skip,14255.0,9265.75,True
+Carrefour,7791828900377,Rollo de cocina maxi rollo Felpita x 200 paños,Felpita,3069.0,3069.0,True
+Carrefour,7790742373304,Queso untable Finlandia light pote 290 g.,Finlandia,5699.0,5699.0,True
+Carrefour,7790742625304,Dulce de leche clásico La Serenísima 400 g.,La Serenísima,4015.0,4015.0,True
+Carrefour,7793704000928,Yerba mate Playadito suave con palo 1 kg.,Playadito,5209.0,5209.0,True
+Carrefour,7790742348005,Leche La Serenísima ultra parc descremada multivit 1% sachet 1 lt,La Serenísima,2049.0,2049.0,True
+Carrefour,2505587000002,Queso cremoso Puyehue horma x kg.,Puyehué,13690.0,13690.0,True
+Carrefour,2505310000002,Queso cremoso Punta del Agua horma x kg.,Punta del Agua,14999.0,14999.0,True
+Carrefour,2505263000005,Queso Port Salut La Pauilna tradicional x kg,La Paulina,13399.0,13399.0,True
+Carrefour,7793344009206,Rollo de cocina Elegante gigante doble hoja 200 u.,Elegante,2839.0,2839.0,True
+Carrefour,7791720016152,Puré de papas instantáneo Carrefour classic 100 g.,Carrefour,1690.0,1332.0,True
+Carrefour,7798159718978,Papel higiénico hoja simple Carrefour Essential 4 x 30 mts,Carrefour,1850.0,1683.5,True
+Carrefour,7793344000517,Papel higiénico doble hoja Elegante 4 x 30 m.,Elegante,3999.0,3999.0,True
+Carrefour,7791720003886,Atún desmenuzado Bulnez al natural 170 g.,Bulnez,1490.0,1490.0,True
+Carrefour,7891150046481,Jabón de Tocador Dove Original Multipack x3 90 grs,Dove,7655.0,7655.0,True
+Carrefour,7790070320308,Fideos tirabuzones Favorita fortificado 500 g.,Favorita,1159.0,1159.0,True
+Carrefour,7790070320285,Fideos spaghetti fortificado Favorita 500 g.,Favorita,1159.0,1159.0,True
+Carrefour,7798174970016,Azúcar común Azucel tipo A bolsa 1 kg.,Azucel,1479.0,1479.0,True
+Carrefour,7792180004871,Harina de trigo Pureza 0000 1 kg.,Pureza,1590.0,1590.0,True
+Carrefour,7798159713621,Crema de leche Carrefour Classic 200 ml,Carrefour,2250.0,2137.5,True
+Carrefour,7795735000328,Bizcochos Don Satur salados 200 g.,Don Satur,1499.0,1499.0,True
+Carrefour,7798152226326,Manteca Classic calidad extra 200 g.,Carrefour,3290.0,2928.1,True
+Carrefour,7798060850026,Manteca Tonadita calidad extra 200 g.,Tonadita,4398.67,4398.67,True
+Carrefour,7798108348324,Agua mineral sin gas Carrefour Classic 2 lts,Carrefour,1550.0,1364.0,True
+Carrefour,7790580567903,Tomate perita Arcor 400 g.,Arcor,1579.0,1579.0,True
+Carrefour,7798062547559,"Agua mineral sin gas Villa del Sur 2,25 lts",Villa Del Sur,2450.0,2450.0,True
+Carrefour,7792180001665,Aceite de girasol Cañuelas 15 l,Cañuelas,6529.0,6529.0,True
+Carrefour,7790787002528,Leche entera larga vida Ilolay 1 l.,Ilolay,2799.0,2799.0,True
+Carrefour,7798033336410,Galletitas pepas Carrefour classic 300 g.,Carrefour,2050.0,1865.5,True
+Carrefour,7792200000128,Bizcochos 9 de Oro agridulces 200 g.,9 De Oro,1519.0,1519.0,True
+Carrefour,7792200000159,Bizcochos 9 de Oro de grasa 200 g.,9 De Oro,1519.0,1519.0,True
+Carrefour,7790132098459,Lavandina Ayudín original 1 l.,Ayudín,1369.0,1369.0,True
+Carrefour,7792931000039,Agua mineralizada sin gas Glaciar bajo sodio 2 lts,Glaciar,3349.0,2176.85,True
+Carrefour,2320035000003,Pera x kg.,Genérico,2499.0,2499.0,True
+Carrefour,2307997000005,Naranja de jugo x kg.,Genérico,1799.0,1799.0,False
+Carrefour,7790895000232,Gaseosa cola Coca Cola sabor original en lata 354 ml,Coca Cola,2700.0,2700.0,True
+Carrefour,7790742352200,Leche descremada zero lactosa La Serenísima sachet 1 lt,La Serenísima,2379.0,2379.0,True
+Carrefour,7791813777403,Gaseosa regular Lima Limón 7 Up 2 lts,7 Up,4400.0,3520.0,True
+Carrefour,7622202839962,Galletitas surtidas Terrabusi Variedad 390 grs,Terrabusi,3889.0,3889.0,True
+Carrefour,7791337010420,Yogur Firme Entero Vainilla La Serenísima Nutrición Activa 120 grs,La Serenísima,1380.0,1380.0,True
+Carrefour,7791337010307,Yogur Cremoso Vainilla Descremado La Serenísima Nutrición Activa 120 grs,La Serenísima,1380.0,1380.0,True
+Carrefour,7791337010260,Yogur Cremoso Entero Frutilla La Serenísima Nutrición Activa 120 grs,La Serenísima,1380.0,1380.0,True
+Carrefour,7791337010512,Yogur sachet entero sabor frutilla La Serenísima Nutrición Activa 1300 grs,La Serenísima,5635.0,5635.0,True
+Carrefour,7790387015447,Yerba mate La Merced Campo Sur 1 kg,La Merced,6700.0,6700.0,True
+Carrefour,7791720047439,Rollo de cocina Bulnez doble hoja x3 40 paños,Bulnez,1590.0,1590.0,True
+Carrefour,7791337010000,Yogur Griego natural endulzado Yogurísimo 300 grs,Yogurísimo,5159.0,5159.0,True
+Carrefour,7790895650840,Gaseosa Coca-Cola Zero 600 ml,Coca Cola,2700.0,2700.0,True
+Carrefour,7790895650833,Gaseosa Coca-Cola sabor original 600 ml,Coca Cola,2700.0,2700.0,True
+Carrefour,7799037060493,Harina leudante Chacabuco 1 kg,Chacabuco,1579.0,1579.0,True
+Carrefour,7790250057086,Rollo de cocina clásico mega Sussex 200 paños,Sussex,3349.0,3349.0,True
+Carrefour,7793890261844,Salmas horneadas Zenissimo 90 grs,Zenissimo,3059.0,3059.0,True
+Carrefour,2302037000007,Batata x kg.,Genérico,2899.0,2899.0,False
+Carrefour,7791337939813,Yogur bebible Ser PRO+ con proteínas sabor vainilla 190 grs,Ser,3565.0,3565.0,True
+Carrefour,7791337009820,Yogur bebible Ser PRO+ con proteínas sabor frutillas y arándanos 190 grs,Ser,3565.0,3565.0,True
+Carrefour,7791337009851,Queso Untable La SerenÍsima Light 460 grs,La Serenísima,6285.0,6285.0,True
+Carrefour,7791337009844,Queso Untable La SerenÍsima Clásico 460 grs,La Serenísima,6285.0,6285.0,True
+Carrefour,7792798015061,Cerveza blanca Brahma en lata 710 ml,Brahma,4057.0,4057.0,True
+Carrefour,7790990003787,Detergente Magistral Ultra de limón Doy Pack 450 ml,Magistral,4255.0,2765.75,True
+Carrefour,7793890260885,Pan blanco Bimbo Artesano con Masa Madre 500 grs,Artesano,9439.0,9439.0,True
+Carrefour,7792798014835,Cerveza blanca Qulmes 710 ml,Quilmes,3832.0,3832.0,True
+Carrefour,7790580143237,Jugo en polvo Arcor de naranja 15 grs,Arcor,396.0,396.0,True
+Carrefour,7790580142490,Jugo en polvo Arcor de multifruta 15 grs,Arcor,396.0,396.0,True
+Carrefour,7790580144142,Jugo en polvo Arcor de manzana 15 grs,Arcor,396.0,396.0,True
+Carrefour,7791337061491,Queso crema Casancrem clásico 500 grs,Casancrem,9305.0,9305.0,True
+Carrefour,7791337061507,Queso blanco balance Casancrem 500 grs,Casancrem,9305.0,9305.0,True
+Carrefour,7791720036921,Fideo spaghetti Bulnez en paquete 500 g.,Bulnez,849.0,849.0,True
+Carrefour,7622202236846,"Jugo en Polvo Clight Limonada Arandanos 7,5 grs",Clight,625.0,625.0,True
+Carrefour,7792798013937,Cerveza blanca Quilmes 1890 retornable 1 lt,Quilmes,3895.0,3895.0,True
+Carrefour,7793253006716,Lavandina clásica desinfectante Ayudín 4 lts,Ayudín,5839.0,5839.0,True
+Carrefour,7790040147720,Galletitas surtidas Bagley en bolsa 400 g.,Bagley,3869.0,3869.0,True
+Carrefour,7791720031803,Harina leudante Bulnez 1 kg,Bulnez,1250.0,1137.5,True
+Carrefour,7791813828419,"Gaseosa cola Pepsi Black pet 1,5 lts",Pepsi,3950.0,3160.0,True
+Carrefour,7790040145337,Galletitas de chocolate Macucas 110 g.,Macucas,1300.0,1300.0,True
+Carrefour,7793913013993,Yogur natural sin azúcar Tregar en pote 280 g.,Tregar,3989.0,3989.0,True
+Carrefour,7792798014873,Cerveza blanca sin alcohol Corona 0.0% 330 ml,Corona,3600.0,3600.0,True
+Carrefour,8445291121843,Nesquik Original Cacao en Polvo 150 grs,Nesquik,2849.0,1994.3,True
+Carrefour,7791293050805,Jabón en Barra Lux Jazmín Cremoso Multipack x3 120 grs,Lux,4639.0,4639.0,True
+Carrefour,7790040143807,Galletitas rellenas Bon o Bon Cofler 85 g.,Cofler,1389.0,1389.0,True
+Carrefour,7791720029541,Lentejas Carrefour Classic 400 g.,Carrefour,1990.0,1830.8,True
+Carrefour,7798260740134,Salchichas fiesta Union ganadera 6 uni,Unión Ganadera,2705.0,2705.0,True
+Carrefour,7790070433114,Arroz parboil Gallo oro en bolsa 500 g,Gallo,1569.0,1569.0,True
+Carrefour,7790070562180,Harina leudante Blancaflor 1 kg.,Blancaflor,2349.0,2349.0,True
+Carrefour,7791720030004,Garbanzos secos remojados Carrefour classic en lata 300 g.,Carrefour,909.0,672.66,True
+Carrefour,7791720030028,Lentejas secas remojadas Carrefour classic en lata 300 g.,Carrefour,1050.0,976.5,True
+Carrefour,7791293049403,Jabón Liquido Para manos Suave Coco y Karite 220 ml,Suave,1855.0,1855.0,True
+Carrefour,7790895649370,Agua mineralizada bajo sodio sin gas Benedictino 6 lts,Benedictino,5300.0,5300.0,True
+Carrefour,7791290795587,Limpiador Cif Expert Antigrasa Doypack 450 ml,Cif,2509.0,2509.0,True
+Carrefour,7790670052418,Salchichas Vienissima flow pack 12 uni,Vieníssima,6260.0,6260.0,True
+Carrefour,7790670052401,Salchichas Vienissima flow pack 6 uni,Vieníssima,3270.0,3270.0,True
+Carrefour,7790070336576,Fideos tallarines Don Vicente en bolsa 500 g.,Don Vicente,3946.15,3946.15,True
+Carrefour,7790070336385,Fideos spaghetti N7 Lucchetti 500 g.,Lucchetti,1749.0,1749.0,True
+Carrefour,7790199604594,Avena instantanea Morixe 400 g.,Morixe,2195.0,2195.0,True
+Carrefour,2695709000000,Bolsa de residuos Bulnez 50x70 cm plana x 10 uni,Bulnez,2390.0,1590.0,True
+Carrefour,2695706000003,Bolsa de residuos Bulnez 45x60 cm plana x 10 uni,Bulnez,1590.0,1090.0,True
+Carrefour,7792798014019,Cerveza light Michelob Ultra 473 ml,Michelob,3135.0,3135.0,True
+Carrefour,7799155000210,"Agua mineral con gas Villavicencio 1,5 lts",Villavicencio,2840.0,2840.0,True
+Carrefour,7799155000180,"Agua mineral sin gas Villavicencio 1,5 lts",Villavicencio,2745.0,2745.0,True
+Carrefour,7799155000173,Agua mineral sin gas Villavicencio 500 ml,Villavicencio,1830.0,1830.0,True
+Carrefour,7622201733834,"Jugo en Polvo Clight Limonada Maracuyá 7,5 grs",Clight,625.0,625.0,True
+Carrefour,7791337061439,Queso blanco light La SerenÍsima Clásico 290 grs,La Serenísima,4300.0,4300.0,True
+Carrefour,7791337061422,Queso blanco original La SerenÍsima Clásico 290 grs,La Serenísima,4300.0,4300.0,True
+Carrefour,7791337061385,Queso blanco balance Casancrem 290 grs,Casancrem,5995.0,5995.0,True
+Carrefour,7790070336118,Fideos tallarin N5 Lucchetti 500 g.,Matarazzo,1749.0,1749.0,True
+Carrefour,7790070336026,Fideos tirabuzon N28 Lucchetti 500 g.,Luchetti,1749.0,1749.0,True
+Carrefour,7790070336149,Fideos mostacholes N52 Lucchetti rayado 500 g.,Lucchetti,1749.0,1749.0,True
+Carrefour,7790070335975,Fideos integrales spaghetti Matarazzo 500 g.,Matarazzo,2399.0,2399.0,True
+Carrefour,7790070335968,Fideos integrales tirabuzon Matarazzo 500 g.,Matarazzo,2399.0,2399.0,True
+Carrefour,7790070335937,Fideos tirabuzon Matarazzo 3 vegetales 500 g.,Matarazzo,2399.0,2399.0,True
+Carrefour,7790070336071,Fideos tirabuzón Terrabusi 3 vegetales 500 g.,Terrabusi,1499.0,1499.0,True
+Carrefour,7791337007819,Leche fermentada multifruta Actimel 100 g.,Actimel,2199.0,2199.0,True
+Carrefour,7791337007802,Leche fermentada Actimel sabor frutilla 100 cc.,Actimel,2199.0,2199.0,True
+Carrefour,7790250015840,Papel higiénico Higienol Max hoja simple 100 mts 4 uni,Higienol,7680.0,7680.0,True
+Carrefour,7622201753061,Galletas de arroz Cerealitas 160 g.,Cerealitas,3389.0,3389.0,True
+Carrefour,7790380023432,Galletitas Toddy con chips de chocolate 126 g.,Toddy,2100.0,2100.0,True
+Carrefour,7622201736033,Galletitas crackers Cerealitas clásicas 212 g.,Cerealitas,2166.67,2166.67,True
+Carrefour,7622201740399,Galletitas Mini Pepitos con chips de chocolate 50 g.,Pepitos,1150.0,1150.0,True
+Carrefour,7798338291087,Crema de leche Las tres niñas uat para batir 200 cc,Las Tres Niñas,2960.0,2960.0,True
+Carrefour,7791290794085,Detergente Cif Bioactive Limón Doypack 450 ml,Cif,3850.0,3850.0,True
+Carrefour,7791293046136,Jabón Liquido para manos Dove Nutrición Profunda Refill 220 ml,Dove,4319.0,4319.0,True
+Carrefour,2508759000008,Zapallo japones cabutian x kg,Genérico,2699.0,2699.0,True
+Carrefour,7509546686509,Pasta Dental Colgate Triple Acción 180 grs,Colgate,7685.0,7685.0,True
+Carrefour,7791293047508,Acondicionador Dove Reconstrucción + Aminoácido 400 ml,Dove,10165.0,10165.0,True
+Carrefour,7791293047102,Shampoo Dove Reconstrucción + Aminoácido 400 ml,Dove,10165.0,10165.0,True
+Carrefour,7791290794115,Detergente cif Bioactive Lima Botella 500 ml,Cif,4390.0,4390.0,True
+Carrefour,7791290794221,Limpiador en crema Cif Multiuso Original 500 ml,Cif,4579.0,4579.0,True
+Carrefour,7793890258851,Pan para Hamburguesa con sésamo Fargo 4 uni,Fargo,3484.62,2265.0,True
+Carrefour,7622201735906,Galletitas Pepitos con chips de chocolate 119 g.,Pepitos,2319.0,2319.0,True
+Carrefour,7622201735340,Jugo en polvo Tang naranja dulce 15 g,Tang,595.0,595.0,True
+Carrefour,7790040137844,Galletitas Maná de vainilla livianas x3 408 grs,Maná,3619.0,3619.0,True
+Carrefour,2507597000003,Supremas de pollo x kg,Genérico,11200.0,11200.0,True
+Carrefour,2507582000001,Cuarto trasero de pollo x kg,Genérico,4800.0,4800.0,True
+Carrefour,2507573000003,Cuarto trasero congelado x kg,Genérico,5190.0,4290.0,True
+Carrefour,7790742192301,Leche entera Casanto 3 ultra para sachet 1 l.,Casanto,1940.0,1940.0,True
+Carrefour,7794000006188,Ketchup Hellmanns regular doypack 250 g.,Hellmanns,2619.0,2619.0,True
+Carrefour,2507376000002,Queso cremoso  Los 4 Hermanos x kg,Los 4 Hermanos,12990.0,12990.0,True
+Carrefour,7791720025291,Aceite de girasol Carrefour Classic  alto omega pet 900 cc,Carrefour,3650.0,3431.0,True
+Carrefour,7790895648267,Jugo Cepita del Valle Naranja Tentación 1 lt,Cepita,3400.0,3400.0,True
+Carrefour,7792350067019,Arvejas secas remojadas Inalpa lata 300 g.,Inalpa,749.0,749.0,True
+Carrefour,7791290792043,Jabón Líquido Concentrado para Diluir Ala Matic Máxima Remoción 500 ml,Ala,12046.15,7830.0,True
+Carrefour,7791290792791,Jabón Liquido Skip Bio-Enzimas Doypack 3 lts,Skip,16755.0,10890.75,True
+Carrefour,7792180140708,Harina leudante Pureza con vitamina D 1 kg.,Pureza,1910.0,1910.0,True
+Carrefour,7799037060226,Harina integral fina Chacabuco 1 kg.,Chacabuco,1699.0,1699.0,True
+Carrefour,7799037060028,Harina de trigo 0000 Chacabuco 1 kg.,Chacabuco,1369.0,1369.0,True
+Carrefour,7793360131516,Mermelada BC La Campagnola durazno 390 g.,La Campagnola,3969.0,3969.0,True
+Carrefour,2506595000008,Bondiola de cerdo x kg,Genérico,9990.0,9990.0,True
+Carrefour,2506593000000,Carré de cerdo x kg,Genérico,7800.0,7800.0,True
+Carrefour,7891000345528,Caldo de Verdura Maggi 12 uni,Maggi,2049.0,1434.3,True
+Carrefour,7792798010615,Cerveza blanca Stella Artois 473 ml,Stella Artois,4163.0,2705.95,True
+Carrefour,7792798010561,Cerveza blanca Stella Artois 975 ml,Stella Artois,7054.0,4585.1,True
+Carrefour,7790742373809,Queso La Serenísima cremón light pote 280 g.,La Serenísima,4155.0,4155.0,True
+Carrefour,7790742373205,Queso untable Finlandia pote 290 g.,Finlandia,5699.0,5699.0,True
+Carrefour,7790742625205,Dulce de leche La Serenísima colonial 400 g.,La Serenísima,4800.0,4800.0,True
+Carrefour,7509546665979,Pasta Dental Kolynos Frescura 90 g.,Kolynos,2500.0,2500.0,True
+Carrefour,7798141972371,Galletitas crackers La Providencia 303 g.,La Providencia,1649.0,1649.0,True
+Carrefour,2505710000008,Roast Beef de Novillo x kg,Genérico,14990.0,14990.0,True
+Carrefour,2505705000006,Milanesa de nalga de Novillo x kg,Genérico,21000.0,17990.0,True
+Carrefour,2505704000007,Milanesa de cuadrada de Novillo x kg,Genérico,17490.0,17490.0,True
+Carrefour,2505701000000,Milanesa bola de lomo de Novillo x kg,Genérico,17490.0,17490.0,True
+Carrefour,7791120098093,Tostadas de arroz Molinos Ala clasicas 150 g.,Molinos Ala,2459.0,2459.0,True
+Carrefour,7791720023815,Tomate triturado Carrefour Classic 970 g.,Carrefour,2790.0,2594.7,True
+Carrefour,7790139003173,Vinagre de alcohol Casalta 1 lt,Casalta,1709.0,1709.0,True
+Carrefour,7792798003709,Cerveza rubia Corona 330 ml,Corona,4700.0,4700.0,True
+Carrefour,7790895012273,"Gaseosa cola Coca Cola Zero 1,25 lts",Coca Cola,3390.0,3390.0,True
+Carrefour,2505311000001,Queso cremoso La Paulina x kg.,La Paulina,12999.0,12999.0,True
+Carrefour,2505259000002,Queso cremoso horma Supercrem x kg.,Supercrem,15240.0,15240.0,True
+Carrefour,7790199000013,Harina de trigo Morixe 000 1 kg.,Morixe,1109.0,1109.0,True
+Carrefour,7790895012259,"Gaseosa cola Coca Cola Zero 1,75 lts",Coca Cola,5250.0,5250.0,True
+Carrefour,7792798999866,Cerveza rubia Andes Origen 473 ml,Andes,3418.0,3418.0,True
+Carrefour,7798119220183,Bebida energizante Speed 473 ml,Speed,3045.0,3045.0,True
+Carrefour,7793344904143,Papel higiénico hoja simple Elegante 4 x 30 m.,Elegante,2600.0,2600.0,True
+Carrefour,7790895642081,Gaseosa cola Coca Cola sabor original 220 ml,Coca Cola,1100.0,1100.0,True
+Carrefour,7791720016114,Tostadas de arroz Carrefour classic aireadas sin TACC,Carrefour,1750.0,1410.5,True
+Carrefour,2304291000007,Zanahoria Huella Natural x kg.,Huella Natural,2590.0,2199.0,True
+Carrefour,2304290000008,Mandarina nova Huella Natural x kg.,Huella Natural,1399.0,1399.0,True
+Carrefour,7792798001316,Cerveza negra Quilmes Stout 473 ml,Quilmes,2692.0,2692.0,True
+Carrefour,7506306241183,Antitranspirante en aerosol Dove original 150 cc.,Dove,6089.0,6089.0,True
+Carrefour,7790895010095,"Gaseosa Schweppes Zero Pomelo 2,25 lts",Schweppes,6000.0,6000.0,True
+Carrefour,7790742067005,Dulce de leche repostero La Serenísima 400 g.,La Serenísima,4345.0,4345.0,True
+Carrefour,7790070320315,Fideos mostacholes rayados Favorita fortificado 500 g.,Favorita,1159.0,1159.0,True
+Carrefour,7790070320322,Fideos coditos rayados Favorita fortificado 500 g.,Favorita,1159.0,1159.0,True
+Carrefour,7798159718961,Papel higiénico doble hoja Carrefour Essential 4 x 30 mts,Carrefour,4050.0,3766.5,True
+Carrefour,7792180007315,Galletitas crackers Paseo 5 semillas 300 g.,Paseo,2085.0,2085.0,True
+Carrefour,7792900092706,Sal fina Dos Estrellas 500 g.,Dos Estrellas,849.0,849.0,True
+Carrefour,7798159718404,Tostadas Carrefour classic fibras y semillas 180 g.,Carrefour,1650.0,1501.5,True
+Carrefour,7793147118822,Cerveza rubia Budweiser 473 ml,Budweiser,2974.0,2974.0,True
+Carrefour,7790070318619,Fideos coditos rayados Matarazzo 500 g.,Matarazzo,2099.0,2099.0,True
+Carrefour,7622300829728,Galletitas dulces Melba rellenas con crema 120 g.,Melba,1569.0,1569.0,True
+Carrefour,7793147001056,Cerveza rubia Budweiser 1 lt,Budweiser,5091.0,5091.0,True
+Carrefour,7792180004567,Harina Pureza especial para pizzas 1 kg.,Pureza,2235.0,2235.0,True
+Carrefour,7790639002423,Agua mineralizada con gas Cellier Favaloro 2 lts,Cellier,1749.0,1749.0,True
+Carrefour,7790639002416,Agua mineralizada sin gas Cellier Favaloro 2 lts,Cellier,1560.0,1560.0,True
+Carrefour,7790895067587,Gaseosa cola Coca Cola Zero en lata 354 ml,Coca Cola,2700.0,2700.0,True
+Carrefour,7622300742584,Alfajor Terrabusi chocolate clásico pack 6 uni,Terrabusi,7829.0,7829.0,True
+Carrefour,7791813423911,"Agua saborizada limoneto H2OH con gas 2,25 lts",H2oh!,2819.0,1832.35,True
+Carrefour,7795735000335,Bizcochos Don Satur dulces 200 g.,Don Satur,1499.0,1499.0,True
+Carrefour,7792798007493,Cerveza rubia Brahma 1 lt,Brahma,4870.0,4870.0,True
+Carrefour,7792798007387,Cerveza rubia clásica Quilmes 1 lt,Quilmes,4649.0,4649.0,True
+Carrefour,7790895003295,"Agua saborizada de pera Aquarius 2,25 lts",Aquarius,3850.0,3850.0,True
+Carrefour,7790895003301,"Agua Saborizada Aquarius Manzana 2,25 lts",Aquarius,3850.0,3850.0,True
+Carrefour,7790895003288,"Agua saborizada de pomelo Aquarius 2,25 lts",Aquarius,3850.0,3850.0,True
+Carrefour,77931764,Chicles Topline menta 14 g.,Topline,1439.0,1439.0,True
+Carrefour,7798060850019,Manteca Tonadita calidad extra 100 g.,Tonadita,2640.0,2640.0,True
+Día,8480017298515,Azúcar Plus DIA Común tipo A 1 Kg.,DIA,1390.0,995.0,True
+Día,8480017299314,Puré de Tomate Dia 520 Gr.,DIA,899.0,899.0,True
+Día,8480017006080,Leche Entera DIA Larga Vida 1 Lt.,DIA,2290.0,1790.0,True
+Día,7790742348302,Leche Multidefensa 3% La Serenisima 1 Lt.,LA SERENISIMA,2050.0,2050.0,True
+Día,8480017091123,Rollo de Cocina 50 paños 3 Ud.,DIA,2450.0,2450.0,True
+Día,7791293051208,Jabon en Barra DOVE Original Individual 90 Gr.,DOVE,2738.0,2330.0,True
+Día,7792540250450,Azúcar Ledesma Refinado Superior 1 Kg.,LEDESMA,1639.0,1639.0,True
+Día,7790580146115,Puré De Tomate Arcor 520 Gr.,ARCOR,1220.0,915.0,True
+Día,8480017558121,Lomitos de Atún al Natural Dia 170 Gr.,DIA,3550.0,3550.0,True
+Día,8480017557452,Arroz Largo Fino 00000 Dia 1 Kg.,DIA,1490.0,890.0,True
+Día,8480017286291,Leche Entera DIA Sachet 1 Lt.,DIA,1865.0,1865.0,True
+Día,7791120031557,Arroz Largo Fino Ala 1 Kg.,MOLINOS ALA,2130.0,2130.0,True
+Día,8480017242730,Harina de Trigo 0000 DIA 1 Kg.,DIA,1100.0,825.0,True
+Día,8480017241146,"Aceite de Girasol Dia 1,5 Lt.",DIA,5745.0,5745.0,True
+Día,8480017005045,Leche Semi Descremada DIA Larga Vida 1 Lt.,DIA,2290.0,1790.0,True
+Día,7790742352101,Leche fresca Protein La Serenisima 1 Lt.,LA SERENISIMA,2375.0,2375.0,True
+Día,7798338291803,Leche Protein Las 3 Niñas 1 Lt.,LAS TRES NIÑAS,3120.0,3120.0,True
+Día,77908308,Alfajor Tita 36 Gr.,TITA,1030.0,1030.0,True
+Día,7790070562180,Harina Leudante Fortificada Blancaflor 1 Kg.,BLANCAFLOR,2349.0,2349.0,True
+Día,7790070336149,Fideos Mostachol N51 Luchetti 500 Gr.,LUCCHETTI,1750.0,1750.0,True
+Día,7790742363107,Leche Larga Vida Liviana 1% La Serenisima 1 Lt.,LA SERENISIMA,2915.0,2915.0,True
+Día,7790742192301,Leche Fresca Entera 3% Fortificada Casanto Sachet 1 Lt.,CASANTO,1785.0,1785.0,True
+Día,8480017269560,Fideos Tirabuzon Dia 500 Gr.,DIA,1450.0,1450.0,True
+Día,8480017268693,Fideos Spaghetti Dia 500 Gr.,DIA,1390.0,890.0,True
+Día,8480017260109,Arvejas Secas Remojadas Dia 300 Gr.,DIA,729.0,729.0,True
+Día,8480017258922,Mega Rollo De Cocina Dia 200 Paños 1 Ud.,DIA,2950.0,2950.0,True
+Día,7622201703080,Jugo En Polvo Clight Manzana Deliciosa 7 Gr.,CLIGHT,625.0,625.0,True
+Día,7622201703141,"Jugo En Polvo Clight Naranja Dulce 7,5 Gr.",CLIGHT,625.0,625.0,True
+Día,7622201735340,Jugo En Polvo Tang Naranja Dulce 15 Gr.,TANG,595.0,595.0,True
+Día,7790742625304,Dulce de Leche La Serenisima Clasico 400 Gr.,LA SERENISIMA,4015.0,3011.25,True
+Día,7790742358608,Leche Protein La Serenisima 1 Lt.,LA SERENISIMA,3119.0,3119.0,True
+Día,7622201735258,Galletitas Oreo Rellenas con Crema Sabor Original 354 Gr.,OREO,7140.0,7140.0,True
+Día,7622201735296,Galletitas Oreo Rellenas con Crema Sabor Original Menos sodio 118 Gr.,OREO,2470.0,1590.0,True
+Día,7790387015324,Yerba Mate Mañanita 4 Flex 500 Gr.,MAÑANITA,3095.0,1990.0,True
+Día,7790742348005,Leche Multidefensa 1% La Serenisima 1 Lt.,LA SERENISIMA,2050.0,2050.0,True
+Día,8480017201546,Papel Higiénico Simple Hoja 30 mts 6 Ud.,DIA,3350.0,3350.0,True
+Día,4002631022679,Cerveza Rubia St. Wendeler 500 ml.,ST WENDELER,2100.0,1290.0,True
+Día,7891024034781,Jabon De Tocador Palmolive Naturals Karite 85 Gr.,PALMOLIVE,980.0,980.0,True
+Día,7798060850026,Manteca Tonadita Extra calidad 200 Gr.,TONADITA,4399.0,3300.0,True
+Día,8480017192103,Papel Higiénico Simple Hoja 50 mts 2 Ud.,DIA,1555.0,935.0,True
+Día,8480017183514,Palta X 1 Ud.,SIN MARCA,1590.0,990.0,True
+Día,7795735000328,Bizcocho Don Satur Salado 200 Gr.,DON SATUR,1498.0,1498.0,True
+Día,7790070320315,Fideos Mostachol Favorita 500 Gr.,FAVORITA,1159.0,1159.0,True
+Día,7790070320292,Fideos Tallarín Favorita 500 Gr.,FAVORITA,1159.0,1159.0,True
+Día,7790040144088,Galletitas Crackers Sandwich Traviata 324 Gr.,TRAVIATA,2178.0,1850.0,True
+Día,7793100111891,Pasta Dental Colgate Ultra Blanco 90 Gr.,COLGATE,3315.0,2320.0,True
+Día,7793147118860,Cerveza Schneider Rubia 473 Ml.,SCHNEIDER,2615.0,1590.0,True
+Día,7790272001029,"Aceite de Girasol Natura 1,5 Lt.",NATURA,7460.0,5890.0,True
+Día,8480017757883,Pulpa de Tomate Dia 520 Gr.,DIA,925.0,670.0,True
+Día,7790070320308,Fideos Tirabuzón Favorita 500 Gr.,FAVORITA,1159.0,1159.0,True
+Jumbo,7790040147720,Galletitas Surtido Bagley 400 Gr,SURTIDO,322314.0,3900.0,True
+Jumbo,7790040143364,Galletitas Surtido Diversion X400g,DIVERSION,259835.0,3144.0,True
+Jumbo,7790040143234,Galletitas Sabor Chocolate 250 Grs Chocolinas,CHOCOLINAS,225289.0,2726.0,True
+Jumbo,7799155000197,Agua Sin Gas Villavicencio 2 L,VILLAVICENCIO,264463.0,3200.0,True
+Jumbo,7790742363107,Leche Uat La Serenisima 1 - 1 Lt,LA SERENISIMA,291500.0,2915.0,True
+Jumbo,7790040932005,Obleas Sabor Naranja 220 Grs Opera,OPERA,245207.0,2967.0,True
+Jumbo,7790742363008,Leche Uat Serenisima 3 - 1 Lt,LA SERENISIMA,240909.0,2915.0,True
+Jumbo,7622201735906,Galletitas Sabor Chips de Chocolate 119 Grs Pepitos,PEPITOS,204959.0,2480.0,True
+Jumbo,7622201735296,Galletitas Oreo Rellenas Con Crema Sabor Original 118 Gr,OREO,219008.0,2650.0,True
+Jumbo,7622201735258,Galletitas Rellenas Con Crema Sabor Original 354 Gr X 3 Un Oreo,OREO,590083.0,7140.0,True
+Jumbo,7790742358608,Leche Uat Proteina 1 Lts La Serenísima,LA SERENISIMA,330000.0,3300.0,True
+Jumbo,7792052768979,Rollo de Cocina Doble Hoja 200 Paños x 1 Un Home Care,HOME CARE,235537.0,2850.0,True
+Jumbo,7792052175609,Leche Entera 1 Lts Cuisine y Co,Cuisine & CO,214876.0,2600.0,True
+Jumbo,7790895067570,"Gaseosa Cola Zero 2,25 Lts Coca Cola",COCA COLA,490083.0,5930.0,True
+Jumbo,2947607000003,Palta Hass Elegida X Un,SIN MARCA.,108507.0,1199.0,True
+Jumbo,7791866001364,Mayonesa Clásica 475 Grs Natura,NATURA,252397.0,3054.0,True
+Jumbo,7790895000997,Gaseosa Cola Sabor Original 2.25 Lts Coca Cola,COCA COLA,490083.0,5930.0,True
+Jumbo,2596617000000,Papa Cepillada Granel Por Kg,VERDULERIA PROPIA,334751.0,3699.0,True
+Jumbo,7790742333605,Leche La Serenisima Zerolact Bot 1l,LA SERENISIMA,335000.0,3350.0,True
+Jumbo,7791337010017,Yogur Sabor Natural Griego Sin Azúcar 300 Grs Yogurisimo,YOGURISIMO,427190.0,5169.0,True
+Jumbo,7798338291803,Leche Uat Las Tres Niñas Proteinas 1l,LAS TRES NIÑAS,260331.0,3150.0,True
+Jumbo,7790895650840,Gaseosa Zero Sabor Cola 600 Ml Coca Cola,COCA COLA,223141.0,2700.0,True
+Jumbo,7791337009660,Yogurt Sabor Natural Pro+ Semidescremado 175 Grs Ser,SER,294876.0,3568.0,True
+Jumbo,7792540250450,Azúcar Molida 1 Kg Ledesma,LEDESMA,134050.0,1622.0,True
+Jumbo,7792798014835,Cerveza Lager 710 Cc Quilmes,QUILMES,316694.0,3832.0,True
+Jumbo,7790040143517,Galletitas Sabor Chocolate y Coco 110 Grs Rumba,RUMBA,148760.0,1800.0,True
+Jumbo,7790040143524,Galletitas Rumba 330g,RUMBA,400826.0,4850.0,True
+Jumbo,7790040144088,Galletitas Traviata 324 Gr,TRAVIATA,181488.0,2196.0,True
+Jumbo,7790040144095,Galletitas de Agua Sabor Original 540 Grs x 5 Un Traviata,TRAVIATA,276529.0,3346.0,True
+Jumbo,7791813828464,Gaseosa Cola Sin Azúcar Black 2 Lts Pepsi,PEPSI,375950.0,4549.0,True
+Jumbo,7799155000173,Agua Mineral Sin Gas 500 Ml Villavicencio,VILLAVICENCIO,165289.0,2000.0,True
+Jumbo,7799155000180,"Agua Mineral Sin Gas 1,5 Lts Villavicencio",VILLAVICENCIO,243802.0,2950.0,True
+Jumbo,7790250026075,Papel Higiénico Ultra Suave Doble Hoja 30 Mts x 4 Un Elite,ELITE,401074.0,4853.0,True
+Jumbo,7622201761288,Galletitas Oreo Mini Rellenas Sabor Original 50 Gr,OREO,103306.0,1250.0,True
+Jumbo,7799155000135,Agua Sin Gas 6.2 Lts Villa del Sur,VILLA DEL SUR,438017.0,5300.0,True
+Jumbo,7790250056881,Rollo de Cocina Doble Hoja 150 Un x 3 Un Sussex,SUSSEX,264463.0,3200.0,True
+Jumbo,7622201735883,Galletitas Pepitos Con Chips De Chocolate 357 Gr Pack X 3 U De 119 Gr,PEPITOS,553719.0,6700.0,True
+Jumbo,7790580131364,Lomo de Atún al Natural 170 Grs La Campagnola,LA CAMPAGNOLA,518843.0,6278.0,True
+Jumbo,7794000006072,Mayonesa Sabor Clásica 475 Grs Hellmann's,HELLMANN´S,247851.0,2999.0,True
+Jumbo,7792052066013,Soda Sifón 1.75 Lts Cuisine & Co,Cuisine & CO,177686.0,2150.0,True
+Jumbo,7792052998529,Puré de Tomate 520 Grs Cuisine y Co,Cuisine & CO,90909.0,1100.0,True
+Jumbo,7791058000816,Leche Descremada Manfrey Uat 1 Lt,MANFREY,215000.0,2150.0,True
+Jumbo,7793913012996,Leche Descremada 1 L Tregar,TREGAR,210744.0,2550.0,True
+Jumbo,7792052181068,Soda Gasificada 2.25 Lts Cuisine & Co,Cuisine & CO,148760.0,1800.0,True
+Jumbo,7790742348005,Leche Descremada La Serenísima 1sachet 1lt,LA SERENISIMA,205000.0,2050.0,True
+Jumbo,7792052170826,Atún Lomitos al Natural 170 Grs Cuisine & Co Premium,CUISINE & CO PREMIUM,404959.0,4900.0,True
+Jumbo,7793344009206,Rollo de Cocina Doble Hoja 200 Paños x 1 Un Elegante,ELEGANTE,252066.0,3050.0,True
+Jumbo,7798338290035,Leche Uat Descremada 1l Las Tres Niñas,LAS TRES NIÑAS,286000.0,2860.0,True
+Jumbo,7792931000039,Agua Mineral Sin Gas 2 Lts Glaciar,GLACIAR,301653.0,3650.0,True
+Jumbo,2599279000005,Tomate Redondo Grande Por Kg,VERDULERIA PROPIA,361900.0,3999.0,True
+Jumbo,2596536000006,Cebolla Superior Por Kg,VERDULERIA PROPIA,452398.0,4999.0,True
+Jumbo,2591996000009,Zapallo Coreano Por Kg,VERDULERIA PROPIA,533846.0,5899.0,True
+Jumbo,7793344904228,Papel Higienico Simple Hoja 4 X 80 M Elegante,ELEGANTE,500000.0,6050.0,True
+Jumbo,7501064198847,Cerveza Rubia 330 Cc Corona,CORONA,388843.0,4705.0,True
+Jumbo,7791866001203,Aderezo Mayonesa Natura 237 Gr,NATURA,136364.0,1650.0,True
+Jumbo,2999239000005,Banana Ecuador X Kg,VERDULERIA PROPIA,316652.0,3499.0,True
+Jumbo,2594329000004,Zanahoria Por Kg,VERDULERIA PROPIA,180905.0,1999.0,True
+Jumbo,7793940054006,Manteca Clásica 200 Grs La Serenisima,LA SERENISIMA,414050.0,5010.0,True
+Jumbo,7790132098459,Lavandina Líquida 1 Lts Ayudín,AYUDIN,113141.0,1369.0,True
+Jumbo,7790060023684,Aceite de Girasol 1.5 Lts Cocinero,COCINERO,611570.0,7400.0,True
+Jumbo,2546614000008,Suprema De Pollo Granel Fresca,GRANJA PROPIA,1126606.0,12449.0,True
+Jumbo,7791337009998,Yogur Sabor Natural Griego 190 Grs Yogurisimo,YOGURISIMO,284132.0,3438.0,True
+Jumbo,7798338290271,Leche 0% lactosa 1 Lts Las Tres Niñas,LAS TRES NIÑAS,310000.0,3100.0,True
+Jumbo,7792052098069,Leche Parcialmente Descremada 1uat Sachet Cuisine & Co,Cuisine & CO,190000.0,1900.0,True
+Jumbo,7792052098076,Leche Entera Larga Vida 1 Lts Cuisine & Co,Cuisine & CO,157025.0,1900.0,True
+Jumbo,7790380020240,Barra de Cereal Sabor Almendras con piso de chocolate 30 Grs Flow,FLOW,99174.0,1200.0,True
+Jumbo,7790895650833,Gaseosa Sabor Original 600 Ml Coca-cola,COCA COLA,223141.0,2700.0,True
+Jumbo,7793890261844,Galletas Salmas Horneadas X 90 Gr Zenissimo,SALMAS,272727.0,3300.0,True
+Jumbo,8445291738775,Café Signature Ar 95 Grs Nescafé® Gold,GOLD,1816198.0,21976.0,True
+Jumbo,7793147574093,Cerveza Lager Sin Alcohol 473 Cc Heineken,HEINEKEN,278843.0,3374.0,True
+Jumbo,7790250057086,Papel de Cocina Doble Hoja 200 Paños x 1 Un Sussex,SUSSEX,291157.0,3523.0,True
+Jumbo,7791337009677,Yogur Sabor Frutos Rojos Semidescremado 175 Grs Ser,SER,294876.0,3568.0,True
+Jumbo,7790040143654,Alfajor Block 40 Gr Cofler,BON O BON,123967.0,1500.0,True
+Jumbo,7791337009820,Yogur Pro+ Sabor Frutilla y Arándanos Bebible 190 Grs Ser,SER,294876.0,3568.0,True
+Jumbo,7791337939813,Yogur Bebible Pro+ Con Proteínas Sabor Vainilla 190 Gr Ser,SER,294876.0,3568.0,True
+Jumbo,7798174970016,Azucar 1 Kg Azucel,AZUCEL,128182.0,1551.0,True
+Jumbo,7791337061491,Queso Crema Blanco Fresco 500 Grs Casancrem,CASANCREM,769421.0,9310.0,True
+Jumbo,7790040145337,Galletitas Sabor Chocolate y Limón 110 Grs Macucas,MACUCAS,107438.0,1300.0,True
+Jumbo,7790040143944,Galletitas Sabor Queso 96 Grs Traviata,TRAVIATA,90909.0,1100.0,True
+Jumbo,7792798014873,Cerveza Sin Alcohol 330 Cc Corona,CORONA,297521.0,3600.0,True
+Jumbo,7790040146389,Galletitas Vocacion Clasica X141g,VOCACION,111570.0,1350.0,True
+Jumbo,7790580146115,Puré de Tomate Clásico 520 Grs Arcor,LA CAMPAGNOLA,100826.0,1220.0,True
+Jumbo,7790580138868,Puré de Tomate Clásico 530 Grs La Campagnola,LA CAMPAGNOLA,116116.0,1405.0,True
+Jumbo,7790040143227,Galletitas Chocolinas X170g,CHOCOLINAS,185950.0,2250.0,True
+Jumbo,7790250015536,Papel Higiénico Plus Doble Hoja 30 Mts x 4 Un Higienol,HIGIENOL,384298.0,4650.0,True
+Jumbo,7792798013999,Cerveza Bajo Cero 1 Lts Quilmes,QUILMES,342975.0,4150.0,True
+Jumbo,7790070562180,Harina Leudante Fort Blancaflor 1 Kg,BLANCAFLOR,209502.0,2315.0,True
+Jumbo,7790070622044,Tapas para Tarta Hojaldradas x 2 Un 400 Grs La Salteña,LA SALTEÑA,234793.0,2841.0,True
+Jumbo,7896004009155,Papas Fritas Sabor Original 104 Grs Pringles,PRINGLES,504132.0,6100.0,True
+Jumbo,7790070433176,Pan Rallado Familiar 1 Kg Preferido,PREFERIDO,314050.0,3800.0,True
+Jumbo,7790070336576,Fideos Tallarín al Huevo 500 Grs Don Vicente,DON VICENTE,326446.0,3950.0,True
+Jumbo,7799155000210,Agua Mineral con Gas 1.5 Lts Villavicencio,VILLAVICENCIO,260331.0,3150.0,True
+Jumbo,7799155000203,Agua Mineral con Gas 500 Ml Villavicencio,VILLAVICENCIO,165289.0,2000.0,True
+Jumbo,7791337007819,Yogurt Sabor Multifruta 100 Grs Actimel,ACTIMEL,198347.0,2400.0,True
+Jumbo,7790250015857,Papel Higiénico Max Hoja Simple 80 Mts x 4 Un Higienol,HIGIENOL,516529.0,6250.0,True
+Jumbo,7622201740399,Galletitas Sabor Chips de Chocolate 50 Grs Pepitos,PEPITOS,103306.0,1250.0,True
+Jumbo,7622201736033,Galletitas Saladas Clásicas 212 Grs Cerealitas,CEREALITAS,194215.0,2350.0,True
+Jumbo,8445290702234,Leche en Polvo Nutrifuerza 800 Grs La Lechera,LA LECHERA,1264463.0,15300.0,True
+Jumbo,7792052085991,Agua Sin Gas 6.25 Lts Cuisine & Co,Cuisine & CO,359504.0,4350.0,True
+Jumbo,7794000007109,Mayonesa Liviana 475 Grs Hellmann's,HELLMANN´S,247851.0,2999.0,True
+Jumbo,7622201703080,Jugo en Polvo Sabor Manzana 7 Grs Clight,CLIGHT,51653.0,625.0,True
+Jumbo,7622201703141,"Jugo en Polvo Sabor Naranja Dulce 7,5 Grs Clight",CLIGHT,51653.0,625.0,True
+Jumbo,7792052073943,Tomate Perita Sin Tacc 400 Grs Cuisine & Co,Cuisine & CO,123967.0,1500.0,True
+Jumbo,7790040137844,Galletitas Sabor Vainilla 408 Grs x 3 Un Mana,MANA,305785.0,3700.0,True
+Jumbo,7790580131357,Lomo de Atún en Aceite 170 Grs La Campagnola,LA CAMPAGNOLA,518843.0,6278.0,True
+Jumbo,7791290792838,Jabón Líquido para Diluir Bio-enzimas 500 Ml Skip,SKIP,1214876.0,14700.0,True
+Jumbo,7792052065658,Arvejas 300 Grs Cuisine y Co,Cuisine & CO,90909.0,1100.0,True
+Jumbo,7798065734314,Soda Gasificada 1.75 Lts Sierra de los Padres,SIERRA DE LOS PADRES,177686.0,2150.0,True
+Jumbo,7792798010561,Cerveza Rubia 975 Ml Stella Artois,STELLA ARTOIS,586777.0,7100.0,True
+Jumbo,7792052998987,Arroz Largo Fino 1 Kg Cuisine y Co,Cuisine & CO,152893.0,1850.0,True
+Jumbo,7790742348302,Leche Entera 3% Sachet 1 Lts La Serenísima,LA SERENISIMA,169421.0,2050.0,True
+Jumbo,2532035000000,Milanesa Nalga,LA HACIENDA,1628869.0,17999.0,True
+Jumbo,7792052998741,Papel Higienico Simple Hoja 4x30 M Family Care,FAMILY CARE,202479.0,2450.0,True
+Jumbo,7792052180832,Galletitas de Agua Tradicionales 505 Grs x 5 Un Cuisine & Co,Cuisine & CO,227273.0,2750.0,True
+Jumbo,7790742625304,Dulce de Leche Clásico 400 Grs La Serenisima,LA SERENISIMA,342975.0,4150.0,True
+Jumbo,2541751000003,Carne Vacuna Picada Especial La Hacienda,LA HACIENDA,1381448.0,15265.0,True
+Jumbo,7790040132689,Galletitas Sabor Vainilla y Caramelo 139 Grs Porteñitas,PORTEÑITAS,123967.0,1500.0,True
+Jumbo,7792052998796,Rollo de Cocina Doble Hoja 50 Paños x 3 Un Home Care,HOME CARE,229752.0,2780.0,True
+Jumbo,7793704000928,Yerba Mate Suave 1 Kg Playadito,PLAYADITO,430413.0,5208.0,True
+Jumbo,7792052170819,Lomo De Atun En Aceite Vegetal Cuisine & Co,CUISINE & CO PREMIUM,404959.0,4900.0,True
+Jumbo,7790742335609,Leche La Serenisima Liviana Bot 1l,LA SERENISIMA,320000.0,3200.0,True
+Jumbo,7798338290028,Leche Entera Clásica 1 Lts Las Tres Niñas,LAS TRES NIÑAS,236364.0,2860.0,True
+Jumbo,7793147570606,Cerveza Rubia 710 Cc Schneider,SCHNEIDER,315455.0,3817.0,True
+Jumbo,7790895012259,Gaseosa Cola Sin Azúcar 1.75 Lts Coca Cola,COCA COLA,433884.0,5250.0,True
+Jumbo,7791813434412,Gaseosa 7 Up Sin Azucar 1.5lt,7 UP,330579.0,4000.0,True
+Jumbo,7798200050019,Tostaditas De Arroz Libre De Gluten 120 Gr Crackines,CRACKINES,272727.0,3300.0,True
+Jumbo,7798062547559,Agua Mineral Sin Gas 2250 Ml Villa del Sur,VILLA DEL SUR,223141.0,2700.0,True
+Jumbo,7792799000097,Agua Mineral Sin Gas 2 Lts Eco de los Andes,ECO DE LOS ANDES,285124.0,3450.0,True
+Jumbo,7792931000015,Agua Mineral Sin Gas Bajo en Sodio 500 Cc Glaciar,GLACIAR,185950.0,2250.0,True
+Jumbo,7792931000022,Agua Mineral sin Gas Bajo Sodio 1.5 Lts Glaciar,GLACIAR,272727.0,3300.0,True
+Jumbo,7791813828419,Gaseosa Cola Black Sin Azúcar 1.5 Lts Pepsi,PEPSI,330496.0,3999.0,True
+Jumbo,7791058000731,Leche Entera U.a.t 3% Caja 1 Lt Manfrey,MANFREY,177686.0,2150.0,True
+Jumbo,2599285000006,Zapallito Redondo Por Kg,VERDULERIA PROPIA,579095.0,6399.0,True
+Jumbo,2595756000001,Remolacha Por Kg,VERDULERIA PROPIA,271403.0,2999.0,True
+Jumbo,2591209000000,Berenjena Negra Por Kg,VERDULERIA PROPIA,524796.0,5799.0,True
+Jumbo,77940131,Turrón Sabor Maní 25 Grs Arcor,ARCOR,39256.0,475.0,True
+Jumbo,2533724000004,Filet De Salmon Rosado Fresco-s/e-kg-1,PESCADERIA PROPIA,3139669.0,37990.0,True
+Jumbo,7891150046481,Jabón de Tocador Original 90 Grs x 3 Un Dove,DOVE,632645.0,7655.0,True
+Jumbo,7790040377806,Galletitas De Agua Criollitas Originales 300 Gr,CRIOLLITAS,181818.0,2200.0,True
+Jumbo,7790895000232,Gaseosa Sabor Original 354 Ml Coca Cola,COCA COLA,223141.0,2700.0,True
+Jumbo,2534071000006,Bondiola de Cerdo Fresca,GRANJA PROPIA,959186.0,10599.0,True
+Jumbo,2582916000001,Pollo Fresco Con Menudos,GRANJA PROPIA,407149.0,4499.0,True
+Jumbo,7793344904013,Rollo de Cocina 50 Paños x 3 Un Elegante,ELEGANTE,260331.0,3150.0,True
+Jumbo,7790240042108,Vino Tinto Malbec 750 Cc Alma Mora,ALMA MORA,654545.0,7920.0,True
+Jumbo,7790040613706,Alfajor Negro Bon O Bon 40 Gr,BON O BON,119835.0,1450.0,True
+Jumbo,7792200000128,Bizcochos Sabor Agridulces 200 Grs 9 De Oro,9 DE ORO,132231.0,1600.0,True
+Jumbo,2571200000001,Manzana Roja Por Kg,VERDULERIA PROPIA,271403.0,2999.0,True
+Jumbo,2572160000001,Lechuga Capuchina Por Kg,VERDULERIA PROPIA,226154.0,2499.0,True
+Jumbo,2533704000000,Jamón Cocido Feteado x 1 Kg x 3 Un Jumbo,MAXIMA,1362810.0,16490.0,True
+Jumbo,2560710000007,Queso Barra x 1 Kg a 2 Kg Jumbo,MAXIMA,1479339.0,17900.0,True
+Jumbo,7791813888468,Gaseosa Sabor Cola 2 Lts Pepsi,PEPSI,375950.0,4549.0,True
+Jumbo,7790895001000,Gaseosa Sabor Lima y Limón 2.25 Lts Sprite,SPRITE,490413.0,5934.0,True
+Jumbo,7791843008300,Vino Tinto Borgoña 1125 Cc Viñas de Balbo,VIÑAS DE BALBO,318182.0,3850.0,True
+Jumbo,7790272001029,"Aceite de Girasol 1,5 Lts Natura",NATURA,616529.0,7460.0,True
+Jumbo,2546587000005,Cuarto Trasero De Pollo Granel Fresco,GRANJA PROPIA,361900.0,3999.0,True
+Jumbo,2520759000000,Limón X Kg,VERDULERIA PROPIA,153756.0,1699.0,True
+Jumbo,7790895005312,"Gaseosa Cola Sabor Liviano 2,25 Lts Coca Cola",COCA COLA,490083.0,5930.0,True
+Jumbo,2597383000003,Pimiento Rojo X Kg,VERDULERIA PROPIA,1266878.0,13999.0,True
+Jumbo,7791337010772,Yogur Ser Pro Con Proteina Vainilla Caramel 17,SER,306198.0,3705.0,True
+Jumbo,7791661000340,Agua Sin Gas Bidón 6.4 Lt Glaciar,GLACIAR,809917.0,9800.0,True
+Jumbo,7790742352200,Leche Parc Descremada La Serenisima Zero Lactosa Sachet 1lt,LA SERENISIMA,250000.0,2500.0,True
+Jumbo,7790742352101,Leche Protein 1 Lts La Serenisima,LA SERENISIMA,250000.0,2500.0,True
+Jumbo,7791337010932,Yogur Griego Firme Natural 180g Yogurisimo,YOGURISIMO GRIEGO,264463.0,3200.0,True
+Jumbo,7791337010000,Yogur Sabor Natural Griego Endulzado 300 Grs Yogurisimo,YOGURISIMO,427190.0,5169.0,True
+Jumbo,7791337009943,Yogur Sabor Frutilla Griego 140 Grs Yogurisimo,YOGURISIMO,210744.0,2550.0,True
+Jumbo,7791337009950,Yogur Sabor Vainilla Griego 140 Grs Yogurisimo,YOGURISIMO,210744.0,2550.0,True
+Jumbo,7792798015443,Cerveza Pure Gold Lager 330 Ml Stella Artois,STELLA ARTOIS,388430.0,4700.0,True
+Jumbo,7791813080282,Gaseosa Sin Azúcar Sabor Lima Limón 2 Lts 7 Up,7 UP,375950.0,4549.0,True
+Jumbo,7791337010307,Yogurt Sabor Vainilla Descremado 120 Grs La Serenisima,LA SERENISIMA,128099.0,1550.0,True
+Jumbo,7791337010413,Yogurt Sabor Frutilla Firme Semidescremado 120 Grs La Serenisima,LA SERENISIMA,128099.0,1550.0,True
+Jumbo,7791337010420,Yogur Sabor Vainilla Firme Semidescremado 120 Grs La Serenisima,LA SERENISIMA,128099.0,1550.0,True
+Jumbo,7791337010314,Yogurt Sabor Frutilla Descremado 120 Grs La Serenisima,LA SERENISIMA,128099.0,1550.0,True
+Jumbo,7791200200866,Vodka Skyy Infusions Sabor Frambuesa 700 Ml,SKYY,1140496.0,13800.0,True
+Jumbo,7791200200835,Vodka Skyy Infusions Cosmic 700 Ml,SKYY,1140496.0,13800.0,True
+Jumbo,7793147574130,Cerveza Golden Sin Alcohol 473 Cc Imperial,IMPERIAL,188760.0,2284.0,True
+Jumbo,7798353194660,Vino Tinto Cabernet Sauvignon 750 Cc Cordero con Piel de Lobo,CORDERO CON PIEL DE LOBO,578512.0,7000.0,True
+Jumbo,7790380016199,Barra De Cereal Flow Yogur 27gr,FLOW,78512.0,950.0,True
+Jumbo,7790380020233,Barra De Cereal Flow Almendras 30gr,FLOW,99174.0,1200.0,True
+Jumbo,7792798015061,Cerveza Rubia 710 Cc Brahma,BRAHMA,338843.0,4100.0,True
+Jumbo,7790895650895,Gaseosa Zero Sabor Lima Limón 600 Ml Sprite,SPRITE,223141.0,2700.0,True
+Jumbo,7790895650864,Gaseosa Sabor Liviano X 600 Ml Coca-cola,COCA COLA,223141.0,2700.0,True
+Jumbo,7798343751521,Galletitas Integrales Sabor Cacao y Chocolate 200 Grs Integra,INTEGRA,334711.0,4050.0,True
+Jumbo,7807910037712,"Cerveza 4,5º Lata X 500 Ml Landvik",LANDVIK,165289.0,2000.0,True
+Jumbo,7793890260885,Pan de Molde Masa Madre Rodajas 500 Grs Bimbo,ARTESANO,826446.0,10000.0,True
+Jumbo,7790040143920,Galletitas Traviata Saladas Rex 288g,TRAVIATA,243802.0,2950.0,True
+Jumbo,7791337061507,Queso Crema Blanco Balance 0.5 Kg Casancrem,CASANCREM,769421.0,9310.0,True
+Jumbo,7790040146877,Galletitas Macucas Rellenas 85g,MACUCAS,82645.0,1000.0,True
+Jumbo,7790990003220,Jabón Líquido para Ropa Platinum 3 Lts Ariel,ARIEL,1323967.0,16020.0,True
+Jumbo,7790040143937,Galletitas Sabor Original 96 Grs Traviata,TRAVIATA,90909.0,1100.0,True
+Jumbo,7794820903100,Leche Entera 1 Lts Milkaut,MILKAUT,214876.0,2600.0,True
+Jumbo,8445291121881,Cacao en Polvo 360 Grs Nesquik,NESQUIK,421488.0,5100.0,True
+Jumbo,7792052998819,Servilletas de Papel Blancas 32x32 Cm x 80 Un Home Care,HOME CARE,148760.0,1800.0,True
+Jumbo,7790040143258,Galletitas Sabor Coco 177 Grs Coquitas,COQUITAS,173554.0,2100.0,True
+Jumbo,7790040143531,Galletitas Amor X110g,AMOR,144628.0,1750.0,True
+Jumbo,7790040143500,Galletitas Amor X330g,AMOR,392562.0,4750.0,True
+Jumbo,7790040143241,Galletitas Sabor Chocolate 100 Grs Chocolinas,CHOCOLINAS,107438.0,1300.0,True
+Jumbo,7790580138738,Polenta Presto Pronta 490gr,PRESTOPRONTA,152893.0,1850.0,True
+Jumbo,7790250015543,Papel Higiénico Doble Hoja 30 Mts x 4 Un Higienol,HIGIENOL,400826.0,4850.0,True
+Jumbo,7790070432858,Brownies Sabor Chocolate 425 Grs Exquisita,EXQUISITA,475207.0,5750.0,True
+Jumbo,7790070562265,Harina 0000 1 Kg Favorita,FAVORITA,162896.0,1800.0,True
+Jumbo,7790070432964,Bizcochuelo Vainilla Exquisita X 540 Gr,EXQUISITA,347107.0,4200.0,True
+Jumbo,7790070622037,Tapas para Tarta Criollas x 2 Un 400 Grs La Salteña,LA SALTEÑA,234793.0,2841.0,True
+Jumbo,7896004009162,Papas Fritas Pringles Crema Y Cebolla X109gs,PRINGLES,504132.0,6100.0,True
+Jumbo,7790070433169,Pan Rallado Fortificado Familiar 500 Grs Preferido,PREFERIDO,173554.0,2100.0,True
+Jumbo,7790895649370,Agua Sin Gas Baja en Sodio 6 Lts Benedictino,BENEDICTINO,454545.0,5500.0,True
+Jumbo,8445290993021,Puré de Papas Sabor Original 125 Grs Maggi,MAGGI,260331.0,3150.0,True
+Jumbo,7790070336316,Fideos Tallarín N°5 500 Grs Matarazzo,MATARAZZO,181818.0,2200.0,True
+Jumbo,7790070336309,Fideos Spaghetti N°3 500 Grs Matarazzo,MATARAZZO,181818.0,2200.0,True
+Jumbo,7790070336552,Fideos Caserito al Huevo 500 Grs Don Vicente,DON VICENTE,326446.0,3950.0,True
+Jumbo,7790070336293,Fideos Tirabuzón N°28 500 Grs Matarazzo,MATARAZZO,181818.0,2200.0,True
+Jumbo,7790250026082,Papel Higiénico Ultra Suave Doble Hoja 50 Mts x 4 Un Elite,ELITE,665289.0,8050.0,True
+Jumbo,7790040142992,Galletitas Negro Chocolinas 258 Gr,CHOCOLINAS,235537.0,2850.0,True
+Jumbo,8445291171138,Leche Condensada 395 Grs Nestle,NESTLE,504132.0,6100.0,True
+Jumbo,7790070336118,Fideos Tallarín N°5 500 Grs Lucchetti,LUCCHETTI,152893.0,1850.0,True
+Jumbo,7790070336217,Fideos Mostachol N°52 500 Grs Matarazzo,MATARAZZO,181818.0,2200.0,True
+Jumbo,7790070335937,Fideos Tirabuzón 3 Vegetales 500 Grs Matarazzo,MATARAZZO,210744.0,2550.0,True
+Jumbo,7791337061439,Queso Crema Blanco x 290 Grs La Serenísima Clásico,LA SERENÍSIMA CLÁSICO,371901.0,4500.0,True
+Jumbo,7791337061422,Queso Crema Blanco 290 Grs La Serenísima Clásico,LA SERENÍSIMA CLÁSICO,371901.0,4500.0,True
+Jumbo,7791290794092,Detergente para Lavavajillas Bioactive Lima 450 Ml Cif,CIF,330579.0,4000.0,True
+Jumbo,7791290794115,Detergente para Lavavajillas Bioactive Lima 500 Ml Cif,CIF,367769.0,4450.0,True
+Jumbo,7791337007802,Leche Fermentada Sabor Frutilla 100 Grs Actimel,ACTIMEL,198347.0,2400.0,True
+Jumbo,7798338291070,Crema para Cocinar Clásica 200 Ml Las Tres Niñas,LAS TRES NIÑAS,256198.0,3100.0,True
+Jumbo,7790250015840,Papel Higiénico Max Hoja Simple 100 Mts x 4 Un Higienol,HIGIENOL,669421.0,8100.0,True
+Jumbo,7798151953384,Maní Salado sin Piel 100 Grs Mani King,MANI KING,115702.0,1400.0,True
+Jumbo,7790310985588,Papas Fritas Clásicas 330 Grs Lay's,LAY´S,933884.0,11300.0,True
+Jumbo,7790310985649,Nachos Snacks Salados Sabor Queso 77 Grs Doritos,DORITOS,371901.0,4500.0,True
+Jumbo,7790310985656,Nachos Sabor Queso 129 Grs Doritos,DORITOS,512397.0,6200.0,True
+Jumbo,7622201735319,Galletitas Dulces Sabor Clásicas 219 Grs Lincoln,LINCOLN,231405.0,2800.0,True
+Jumbo,7790070760722,Vino Emilia Malbec 750cc,EMILIA,801653.0,9700.0,True
+Jumbo,7509546686523,Pasta Dental Triple Acción 90 Grs Colgate,COLGATE,359504.0,4350.0,True
+Jumbo,7790070431417,Arroz Grano Largo Parboil 1 Kg Gallo Oro,GALLO,247934.0,3000.0,True
+Jumbo,7802100003270,Cerveza 0.0 330 Ml Heineken,HEINEKEN,280992.0,3400.0,True
+Jumbo,7791290794221,Limpiador En Crema Cif Bioactive Original 750 Gr,CIF,404959.0,4900.0,True
+Jumbo,7794520868969,Palitos Salados Krachitos 110 Gr,KRACH-ITOS,152893.0,1850.0,True
+Jumbo,7793360132414,Choclo La Campagnola Amarillo Entero 300gr,LA CAMPAGNOLA,214876.0,2600.0,True
+Jumbo,7891024034781,Jabón de Tocador Naturals Karité y Vitamina E 85 Grs Palmolive,PALMOLIVE,86777.0,1050.0,True
+Jumbo,7622201705992,Jugo en Polvo Sabor Manzana 15 Grs Tang,TANG,49174.0,595.0,True
+Jumbo,7622201735340,Jugo en Polvo Sabor Naranja Dulce 15 Grs Tang,TANG,49174.0,595.0,True
+Jumbo,7622201703172,Jugo en Polvo Sabor Pomelo Rosado 8 Grs Clight,CLIGHT,51653.0,625.0,True
+Jumbo,7794000006478,Mostaza Sabor Original 250 Grs Savora,SAVORA,148760.0,1800.0,True
+Jumbo,7790040139091,Galletitas Merengadas Frutilla 264g,MERENGADAS,400826.0,4850.0,True
+Jumbo,7790040137837,Galletitas Mana Vainilla 136g,MANA,115702.0,1400.0,True
+Jumbo,7790040139015,Galletitas Criollitas 499 Gr,CRIOLLITAS,289256.0,3500.0,True
+Jumbo,7790580132422,Choclo Amarillo Entero 300 Grs Arcor,ARCOR,189174.0,2289.0,True
+Jumbo,7791787100924,Galletitas Pepas Sabor Membrillo 320 Grs Trio,TRIO,194215.0,2350.0,True
+Jumbo,7790895648267,Jugo Sabor Naranja 1 Lts Cepita,CEPITA,280992.0,3400.0,True
+Jumbo,2578015000004,Carne Vacuna Picada Común La Hacienda,LA HACIENDA,829774.0,9169.0,True
+Jumbo,7791290792791,Jabón Líquido Bio-enzimas 3 Lts Skip,SKIP,1425620.0,17250.0,True
+Jumbo,7792052065641,Choclo Amarillo 300 Grs Cuisine & Co,Cuisine & CO,111570.0,1350.0,True
+Jumbo,7792052065597,Lentejas 300 Grs Cuisine & Co,Cuisine & CO,119835.0,1450.0,True
+Jumbo,7792052071932,Salchichas X 6 Un - 190 Grs Cuisine & Co,Cuisine & CO,252066.0,3050.0,True
+Jumbo,7792052180993,Lentejas 400 Grs Cuisine y Co,Cuisine & CO,235294.0,2600.0,True
+Jumbo,2588910000009,Queso En Fetas Danbo 200 Grs Cuisine & Co,Cuisine & CO,2296694.0,27790.0,True
+Jumbo,7891000345528,Caldo Sabor Verdura en Cubos x 12 Un 114 Grs Maggi,MAGGI,173554.0,2100.0,True
+Jumbo,7790580132774,Jugo en Polvo Sabor Naranja 7 Grs Bc,BC,33058.0,400.0,True
+Jumbo,7792052999335,Fideos Spaguetti 500 Grs Cuisine y Co,Cuisine & CO,144628.0,1750.0,True
+Jumbo,7792052998789,Papel Higiénico Hoja Simple 80 Mts x 4 Un Family Care,FAMILY CARE,528926.0,6400.0,True
+Jumbo,7790742357205,Leche La Serenisima Entera 200cc,LA SERENISIMA,119835.0,1450.0,True
+Jumbo,77976291,Galletita Tita Clásica 19 Gr,TITA,103306.0,1250.0,True
+Jumbo,2532186000003,Roast Beef Churrasco,LA HACIENDA,1266878.0,13999.0,True
+Jumbo,2532180000009,Vacio,LA HACIENDA,1719367.0,18999.0,True
+Jumbo,2532046000006,Peceto De Novillito La Hacienda,LA HACIENDA,1538371.0,16999.0,True
+Jumbo,7792052998956,Vinagre de Alcohol 1 Lts Cuisine y Co,Cuisine & CO,136364.0,1650.0,True
+Jumbo,7792052181341,Papas Fritas Tradicionales 250 Grs Cuisine & Co,Cuisine & CO,512397.0,6200.0,True
+Jumbo,7790742222909,Queso Reggianito Rallado 35 Grs x 1 Un La Serenisima,LA SERENISIMA,157025.0,1900.0,True
+Jumbo,7790742223203,Queso Reggianito Rallado 0.175 Kg La Serenisima,LA SERENISIMA,694215.0,8400.0,True
+Jumbo,7790742373304,Queso Untable Finlandia 290 Gr,FINLANDIA,487603.0,5900.0,True
+Jumbo,7790742625205,Dulce de Leche Colonial 400 Grs La Serenisima,LA SERENISIMA,396694.0,4800.0,True
+Jumbo,2548716000009,Carne Vacuna Picada Magra,LA HACIENDA,2121176.0,23439.0,True
+Jumbo,7790040133488,Galletitas Rellenas y Bañadas Sabor Frambuesa 108 Grs Sonrisas,SONRISAS,152893.0,1850.0,True
+Jumbo,7790040133471,Galletitas Frambuesa Sonrisas 324 Gr,SONRISAS,400826.0,4850.0,True
+Jumbo,7790040133266,Galletitas Rellenas Sabor Vainilla y Frutilla 152 Grs Mana,MANA,152893.0,1850.0,True
+Jumbo,7792052998727,Papel Higienico Doble Hoja 4x30 M Family Care,FAMILY CARE,401653.0,4860.0,True
+Jumbo,7790387015607,Yerba Mate con Palo de Campo 500 Grs La Merced,LA MERCED,394298.0,4771.0,True
+Jumbo,7792052180436,Agua Mineral Sin Gas 2 Lts Cuisine & Co,Cuisine & CO,198347.0,2400.0,True
+Jumbo,7790290101602,Fernet 750cc Branca,BRANCA,1628099.0,19700.0,True
+Jumbo,7793253003517,Limpiador de Pisos Frescura de Lavanda 1.8 Lts Poett,POETT,429752.0,5200.0,True
+Jumbo,7792052180702,Pepas De Membrillo 300 Gr Cuisine & Co,Cuisine & CO,219008.0,2650.0,True
+Jumbo,7793704000911,Yerba Mate con Palo 500 Grs Playadito,PLAYADITO,228017.0,2759.0,True
+Jumbo,7792052178822,Manteca 200 Grs Cuisine & Co,Cuisine & CO,388430.0,4700.0,True
+Jumbo,7790040127944,Galletita Cofler Cookies 120 Gr,COFLER,169421.0,2050.0,True
+Jumbo,7792052178631,Tomate Triturado 910 Grs Cuisine y Co,Cuisine & CO,190083.0,2300.0,True
+Jumbo,7798078450126,Arroz Blanco Largo Fino 1 Kg Vanguardia,VANGUARDIA,142314.0,1722.0,True
+Jumbo,7793147573720,Cerveza Golden 1 Lts Imperial,IMPERIAL,446281.0,5400.0,True
+Jumbo,7790742335500,Leche La Serenisima Entera Bot 1l,LA SERENISIMA,264463.0,3200.0,True
+Jumbo,7790895645785,Agua Sin Gas 1.5 Lts Smart Water,SMART WATER,219008.0,2650.0,True
+Jumbo,7798141972371,Galletitas de Agua 303 Grs x 3 Un La Providencia,La Providencia,159174.0,1926.0,True
+Jumbo,7790380023432,Galletas Clásica Sabor Chocolate 126 Grs Toddy,TODDY,260331.0,3150.0,True
+Jumbo,7799155000876,Agua Sabor Pomelo 2.25 Lts Levite,Levite,314050.0,3800.0,True
+Jumbo,7790895003288,Agua Saborizada Sabor Pomelo 2.25 Lts Aquarius,AQUARIUS,318182.0,3850.0,True
+Jumbo,7790895012266,Gaseosa Cola Sabor Original 1.25 Lts Coca Cola,COCA COLA,280992.0,3400.0,True
+Jumbo,7790895642081,Gaseosa Cola 220 Cc Coca Cola,COCA COLA,95041.0,1150.0,True
+Jumbo,7792799000011,Agua Sin Gas 500 Ml Eco de los Andes,ECO DE LOS ANDES,165289.0,2000.0,True
+Jumbo,7792799000073,"Agua Mineral con Gas 1,5 Lts Eco de los Andes",ECO DE LOS ANDES,268595.0,3250.0,True
+Jumbo,7794450000149,Vino Tinto Red Blend Malbec 750 Cc Nicasia,NICASIA,1173554.0,14200.0,True
+Jumbo,7795930000543,Agua Mineral Sin Gas 2.25 Lts Nestle,NESTLE,243802.0,2950.0,True
+Jumbo,7790199000020,Harina 0000 1 Kg Morixe,MORIXE,144796.0,1600.0,True
+Jumbo,2595728000008,Mandarina Murcot Por Kg,VERDULERIA PROPIA,135656.0,1499.0,True
+Jumbo,2595854000002,Zapallito Largo X Kg,VERDULERIA PROPIA,660543.0,7299.0,True
+Jumbo,7790990003039,Detergente para Lavavajillas Ultra Limón 500 Ml Magistral,MAGISTRAL,376777.0,4559.0,True
