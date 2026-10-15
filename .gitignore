@@ -1,0 +1,6 @@
+
+token.json
+credentials.json
+*.env
+proyectos/evolucion_SAC/config/
+proyectos/backup*/
