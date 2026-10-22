@@ -1,0 +1,9 @@
+.venv/
+.vscode/
+TraductorVoz_v1/
+app.py
+prueba_tts.py
+test_listener.py
+__pycache__/
+*.pyc
+temp/

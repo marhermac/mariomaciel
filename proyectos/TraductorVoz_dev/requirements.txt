@@ -1,0 +1,6 @@
+streamlit
+faster-whisper
+deep-translator
+edge-tts
+soundfile
+numpy
