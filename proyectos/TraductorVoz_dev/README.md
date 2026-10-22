@@ -2,8 +2,8 @@
 
 > Aplicación web interactiva desarrollada en Python y Streamlit para la transcripción, traducción e interpretación de voz en tiempo real, optimizada para despliegue en la nube.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](AQUÍ_VA_EL_LINK_DE_STREAMLIT)
-[Ver Repositorio en GitHub](AQUÍ_VA_EL_LINK_DE_TU_GITHUB)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://traductorgratis.streamlit.app/)
+
 
 ---
 
