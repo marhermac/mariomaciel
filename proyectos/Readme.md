@@ -50,16 +50,15 @@
 * **Links:** [Ver Directorio](../limpieza-ecommerce)
 ---
 
-## 🛠️ Stack Tecnológico Utilizado en este Directorio
+# 🛠️ Stack Tecnológico Utilizado en este Directorio
 
 | Área | Tecnologías / Herramientas |
 | :--- | :--- |
-| **Lenguajes & Entornos** | Python 3, SQL, Jupyter Notebooks |
+| **Lenguajes & Entornos** | Python 3.12, SQL, Regex, Jupyter Notebooks |
 | **IA & Speech** | OpenAI Whisper (`faster-whisper`), `edge-tts`, `deep-translator` |
-| **Análisis & Datos** | Pandas, NumPy, Data Profiling, Excel Avanzado |
+| **Data & Automation** | Pandas, NumPy, OpenPyxl, Requests (VTEX APIs), Excel / Tablas Dinámicas |
 | **Visualización & Web** | Streamlit, Plotly, Matplotlib, Seaborn |
 | **Entorno & Despliegue** | Git, GitHub, Streamlit Community Cloud, PowerShell |
-
 ---
 
 ## 📌 Navegación del Repositorio
