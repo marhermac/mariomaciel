@@ -1,6 +1,2 @@
-streamlit
-faster-whisper
-deep-translator
-edge-tts
-soundfile
-numpy
+﻿faster-whisper>=1.0.0
+av<18
