@@ -1,20 +1,20 @@
+import tempfile
 import asyncio
 import edge_tts
-import os
 
-VOICE = "en-US-AndrewNeural"
+def text_to_speech(text, voice="en-US-AndrewNeural"):
+    """
+    Genera audio a partir de texto y lo guarda en un archivo temporal seguro.
+    """
+    # Crear un archivo temporal seguro con extensión .mp3
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as temp_audio:
+        temp_path = temp_audio.name
 
-def text_to_speech(texto):
+    # Función asíncrona para guardar el audio con edge-tts
+    async def _generate():
+        communicate = edge_tts.Communicate(text, voice)
+        await communicate.save(temp_path)
 
-    archivo = os.path.abspath("audio/temp/output.mp3")
-
-    async def generar():
-        communicate = edge_tts.Communicate(texto, VOICE)
-        await communicate.save(archivo)
-
-    asyncio.run(generar())
-
-    print("Archivo generado:", archivo)
-    print("Existe:", os.path.exists(archivo))
-
-    return archivo
+    asyncio.run(_generate())
+    
+    return temp_path  # Retorna la ruta al archivo temporal
