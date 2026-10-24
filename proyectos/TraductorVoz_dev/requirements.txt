@@ -1,8 +1,7 @@
-﻿fstreamlit
+﻿streamlit
 faster-whisper>=1.0.0
-av<18
+av==12.3.0
 deep-translator
 edge-tts
 soundfile
-numpyaster-whisper>=1.0.0
-av<18
+numpy
