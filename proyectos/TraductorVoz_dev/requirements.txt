@@ -1,6 +1,5 @@
 ﻿streamlit
-faster-whisper>=1.0.0
-av==12.3.0
+faster-whisper
 deep-translator
 edge-tts
 soundfile
