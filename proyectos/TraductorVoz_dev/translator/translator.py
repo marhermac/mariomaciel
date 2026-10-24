@@ -1,12 +1,10 @@
 import time
-from deep_translator import GoogleTranslator, MyMemoryTranslator, LibreTranslateTranslator
+from deep_translator import GoogleTranslator, MyMemoryTranslator
 
 def translate_text(text, source="auto", target="en", target_language=None, **kwargs):
     """
-    Función flexible que acepta cualquier parámetro (target o target_language)
-    y prueba múltiples motores de traducción para evitar bloqueos en la nube.
+    Función de traducción flexible y robusta con Google y MyMemory.
     """
-    # Si la app pasa 'target_language' en lugar de 'target', lo adaptamos
     if target_language:
         target = target_language
 
@@ -15,27 +13,23 @@ def translate_text(text, source="auto", target="en", target_language=None, **kwa
 
     texto_limpio = str(text).strip()
 
-    # 1. Intento con GoogleTranslator
-    try:
-        traductor = GoogleTranslator(source=source, target=target)
-        res = traductor.translate(texto_limpio)
-        if res:
-            return res
-    except Exception:
-        pass
+    # 1. Intento principal con GoogleTranslator
+    for intento in range(2):
+        try:
+            if intento > 0:
+                time.sleep(1)
+            traductor = GoogleTranslator(source=source, target=target)
+            res = traductor.translate(texto_limpio)
+            if res:
+                return res
+        except Exception:
+            pass
 
-    # 2. Intento con LibreTranslate (alternativa libre sin clave)
+    # 2. Fallback de respaldo con MyMemoryTranslator
     try:
-        traductor_lib = LibreTranslateTranslator(source=source if source != "auto" else "es", target=target)
-        res = traductor_lib.translate(texto_limpio)
-        if res:
-            return res
-    except Exception:
-        pass
-
-    # 3. Intento con MyMemoryTranslator como último recurso
-    try:
-        traductor_mm = MyMemoryTranslator(source="es", target=target)
+        src_mm = "es" if source == "auto" else source[:2]
+        tgt_mm = target[:2]
+        traductor_mm = MyMemoryTranslator(source=src_mm, target=tgt_mm)
         res = traductor_mm.translate(texto_limpio)
         if res:
             return res
