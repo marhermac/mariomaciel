@@ -2,6 +2,7 @@ import os
 import tempfile
 import asyncio
 import streamlit as st
+import inspect
 
 # Importamos la lógica de tus módulos existentes
 from speech.stt import speech_to_text
@@ -77,7 +78,9 @@ if audio_bytes:
                     st.markdown("### 🔊 Audio Traducido")
                     
                     # Manejo asíncrono o sincrónico para `text_to_speech`
-                    if asyncio.iscoroutinefunction(text_to_speech):
+                    # DESPUÉS:
+
+                    if inspect.iscoroutinefunction(text_to_speech):
                         ruta_voz = asyncio.run(text_to_speech(traduccion))
                     else:
                         ruta_voz = text_to_speech(traduccion)
