@@ -1,27 +1,28 @@
+import streamlit as st
+
+# 1. ESTO DEBE SER LO PRIMERO ABSOLUTO
+st.set_page_config(
+    page_title="Traductor de Voz (ES -> EN)",
+    page_icon="🎙️",
+    layout="centered"
+)
+
 import sys
 import os
 
-# Asegurar que la ruta actual del script esté en el sistema para encontrar los módulos internos
+# 2. Configurar rutas para encontrar los módulos en el subdirectorio
 current_dir = os.path.dirname(os.path.abspath(__file__))
 if current_dir not in sys.path:
     sys.path.append(current_dir)
 
 import tempfile
 import asyncio
-import streamlit as st
 import inspect
 
-# Importamos la lógica de tus módulos existentes
+# 3. Importar los módulos internos ahora que el path está configurado
 from speech.stt import speech_to_text
 from translator.translator import translate_text
 from speech.tts import text_to_speech
-
-# Configuración básica de la interfaz
-st.set_page_config(
-    page_title="Traductor de Voz (ES -> EN)",
-    page_icon="🎙️",
-    layout="centered"
-)
 
 st.title("🎙️ Traductor de Voz GRATIS")
 st.subheader("Español ➡️ Inglés")
