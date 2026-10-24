@@ -1,4 +1,11 @@
+import sys
 import os
+
+# Asegurar que la ruta actual del script esté en el sistema para encontrar los módulos internos
+current_dir = os.path.dirname(os.path.abspath(__file__))
+if current_dir not in sys.path:
+    sys.path.append(current_dir)
+
 import tempfile
 import asyncio
 import streamlit as st
@@ -77,9 +84,6 @@ if audio_bytes:
                     # 3. Síntesis de voz (Text-to-Speech)
                     st.markdown("### 🔊 Audio Traducido")
                     
-                    # Manejo asíncrono o sincrónico para `text_to_speech`
-                    # DESPUÉS:
-
                     if inspect.iscoroutinefunction(text_to_speech):
                         ruta_voz = asyncio.run(text_to_speech(traduccion))
                     else:
@@ -97,7 +101,6 @@ if audio_bytes:
                 # Limpieza del archivo temporal de entrada
                 if os.path.exists(ruta_temp_in):
                     os.remove(ruta_temp_in)
-
 
 st.markdown("""
 Creado por Mario Maciel mas info en: https://marhermac.github.io/mariomaciel/  """)
