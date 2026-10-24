@@ -1,8 +1,8 @@
 from deep_translator import GoogleTranslator
 
-def translate_text(text, source="auto", target="en", target_language=None, **kwargs):
+def translate_text(text, source="es", target="en", target_language=None, **kwargs):
     """
-    Función de traducción robusta con GoogleTranslator y respaldo local offline.
+    Función de traducción de Español a Inglés utilizando GoogleTranslator.
     """
     if target_language:
         target = target_language
@@ -12,7 +12,7 @@ def translate_text(text, source="auto", target="en", target_language=None, **kwa
 
     texto_limpio = str(text).strip()
 
-    # 1. Ñaikãturi GoogleTranslator rupive
+    # Intentar traducir con Google
     try:
         traductor = GoogleTranslator(source=source, target=target)
         resultado = traductor.translate(texto_limpio)
@@ -21,5 +21,5 @@ def translate_text(text, source="auto", target="en", target_language=None, **kwa
     except Exception:
         pass
 
-    # 2. Respaldo offline (Ani hag̃ua opyta rei pe programa)
-    return f"[Modo Offline]: {texto_limpio}"
+    # Si el servidor externo bloquea la IP, devolvemos un aviso en inglés para mantener el flujo
+    return f"Translation service temporarily unavailable. Original text: {texto_limpio}"
