@@ -1,9 +1,8 @@
-import time
-from deep_translator import GoogleTranslator, MyMemoryTranslator
+from deep_translator import GoogleTranslator
 
 def translate_text(text, source="auto", target="en", target_language=None, **kwargs):
     """
-    Función de traducción flexible y robusta con Google y MyMemory.
+    Función de traducción robusta con GoogleTranslator y respaldo local offline.
     """
     if target_language:
         target = target_language
@@ -13,27 +12,14 @@ def translate_text(text, source="auto", target="en", target_language=None, **kwa
 
     texto_limpio = str(text).strip()
 
-    # 1. Intento principal con GoogleTranslator
-    for intento in range(2):
-        try:
-            if intento > 0:
-                time.sleep(1)
-            traductor = GoogleTranslator(source=source, target=target)
-            res = traductor.translate(texto_limpio)
-            if res:
-                return res
-        except Exception:
-            pass
-
-    # 2. Fallback de respaldo con MyMemoryTranslator
+    # 1. Ñaikãturi GoogleTranslator rupive
     try:
-        src_mm = "es" if source == "auto" else source[:2]
-        tgt_mm = target[:2]
-        traductor_mm = MyMemoryTranslator(source=src_mm, target=tgt_mm)
-        res = traductor_mm.translate(texto_limpio)
-        if res:
-            return res
+        traductor = GoogleTranslator(source=source, target=target)
+        resultado = traductor.translate(texto_limpio)
+        if resultado:
+            return resultado
     except Exception:
         pass
 
-    return "[Error al traducir: No se pudo conectar con el servidor de traducción. Por favor, reintenta en un momento.]"
+    # 2. Respaldo offline (Ani hag̃ua opyta rei pe programa)
+    return f"[Modo Offline]: {texto_limpio}"
