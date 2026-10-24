@@ -1,2 +1,8 @@
-﻿faster-whisper>=1.0.0
+﻿fstreamlit
+faster-whisper>=1.0.0
+av<18
+deep-translator
+edge-tts
+soundfile
+numpyaster-whisper>=1.0.0
 av<18
