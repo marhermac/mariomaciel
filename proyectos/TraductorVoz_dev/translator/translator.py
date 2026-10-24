@@ -1,35 +1,45 @@
 import time
-from deep_translator import GoogleTranslator, MyMemoryTranslator
+from deep_translator import GoogleTranslator, MyMemoryTranslator, LibreTranslateTranslator
 
-def translate_text(texto, source="auto", target="en"):
+def translate_text(text, source="auto", target="en", target_language=None, **kwargs):
     """
-    Traduce texto utilizando GoogleTranslator como motor principal,
-    con fallback a MyMemoryTranslator.
+    Función flexible que acepta cualquier parámetro (target o target_language)
+    y prueba múltiples motores de traducción para evitar bloqueos en la nube.
     """
-    if not texto or not texto.strip():
+    # Si la app pasa 'target_language' en lugar de 'target', lo adaptamos
+    if target_language:
+        target = target_language
+
+    if not text or not str(text).strip():
         return ""
 
-    # 1. Intento principal con GoogleTranslator (más rápido y estable)
-    for intento in range(2):
-        try:
-            if intento > 0:
-                time.sleep(1)
-            traductor_google = GoogleTranslator(source=source, target=target)
-            resultado = traductor_google.translate(texto)
-            if resultado:
-                return resultado
-        except Exception:
-            pass
+    texto_limpio = str(text).strip()
 
-    # 2. Fallback de respaldo con MyMemoryTranslator si Google falla
+    # 1. Intento con GoogleTranslator
     try:
-        traductor_mymemory = MyMemoryTranslator(source="es", target="en")
-        resultado_mm = traductor_mymemory.translate(texto)
-        if resultado_mm:
-            return resultado_mm
+        traductor = GoogleTranslator(source=source, target=target)
+        res = traductor.translate(texto_limpio)
+        if res:
+            return res
     except Exception:
         pass
 
-    return (
-        "[Error al traducir: No se pudo conectar con el servidor de traducción. Por favor, reintenta en un momento.]"
-    )
+    # 2. Intento con LibreTranslate (alternativa libre sin clave)
+    try:
+        traductor_lib = LibreTranslateTranslator(source=source if source != "auto" else "es", target=target)
+        res = traductor_lib.translate(texto_limpio)
+        if res:
+            return res
+    except Exception:
+        pass
+
+    # 3. Intento con MyMemoryTranslator como último recurso
+    try:
+        traductor_mm = MyMemoryTranslator(source="es", target=target)
+        res = traductor_mm.translate(texto_limpio)
+        if res:
+            return res
+    except Exception:
+        pass
+
+    return "[Error al traducir: No se pudo conectar con el servidor de traducción. Por favor, reintenta en un momento.]"
