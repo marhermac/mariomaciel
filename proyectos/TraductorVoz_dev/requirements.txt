@@ -5,3 +5,4 @@ deep-translator
 edge-tts
 soundfile
 numpy
+requests
