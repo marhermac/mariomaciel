@@ -4,3 +4,9 @@ credentials.json
 *.env
 proyectos/evolucion_SAC/config/
 proyectos/backup*/
+
+proyectos/evolucion_SAC/
+proyectos/backup evolucion_sac/
+proyectos/evolucion_sac_v1.0_estable/
+
+proyectos/retail_pulse/Pruebas/
