@@ -1,8 +1,6 @@
-﻿streamlit
-faster-whisper
-av==18.0.0
-deep-translator
-edge-tts
-soundfile
-numpy
-requests
+﻿fastapi==0.110.0
+uvicorn==0.28.0
+faster-whisper==1.0.3
+deep-translator==1.11.4
+edge-tts==6.1.9
+python-multipart==0.0.9
