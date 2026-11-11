@@ -1,695 +1,571 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario H. Maciel | Data Analyst & Supply Chain Analytics</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
-    <style>
-        :root {
-            --primary: #0f172a;
-            --accent: #3b82f6;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --bg: #f8fafc;
-            --white: #ffffff;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            margin: 0;
-            background-color: var(--bg);
-            color: var(--text-main);
-            line-height: 1.6;
-        }
-
-        header {
-            background: var(--white);
-            padding: 4rem 1rem;
-            text-align: center;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            margin: 0;
-            color: var(--primary);
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            margin: 1rem 0 2rem;
-        }
-
-        .section {
-            background: var(--white);
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            margin-bottom: 2rem;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            border-left: 4px solid var(--accent);
-            padding-left: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        /* ESTILOS PARA LAS TARJETAS DE MICROSOFT LEARN */
-        .learn-badges-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .learn-badge-card {
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 1.25rem;
-            background-color: #ffffff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.2s;
-        }
-
-        .learn-badge-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        .learn-badge-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 10px;
-        }
-
-        .learn-tag-source {
-            font-size: 0.75rem;
-            color: #64748b;
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-
-        .learn-badge-card h3 {
-            font-size: 0.95rem;
-            color: var(--text-main);
-            margin: 0 0 1rem 0;
-            line-height: 1.4;
-        }
-
-        .learn-badge-btn {
-            display: inline-block;
-            text-align: center;
-            background-color: #0078d4;
-            color: #ffffff;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.85rem;
-            font-weight: 600;
-            transition: background-color 0.2s;
-        }
-
-        .learn-badge-btn:hover {
-            background-color: #005a9e;
-        }
-
-        /* CUADRICULA DE CREDENCIALES */
-        .badges-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-            gap: 20px;
-            justify-items: center;
-            align-items: start;
-            margin-top: 1.5rem;
-        }
-
-        .project-card {
-            border: 1px solid #e2e8f0;
-            padding: 1.5rem;
-            border-radius: 8px;
-            transition: transform 0.2s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .btn {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 1rem;
-        }
-
-      /* Contenedor principal de los iconos */
-.social-links {
-    display: flex;
-    justify-content: center;
-}
-
-/* Estilo unificado para los enlaces (iconos) */
-.social-links a.social-icon {
-    color: #0077b5; /* Tu color preferido */
-    font-size: 1.75rem;
-    margin: 0 15px;
-    text-decoration: none;
-    position: relative; /* Necesario para ubicar la etiqueta */
-    display: inline-block;
-    transition: color 0.2s ease;
-}
-
-/* Estilo de la etiqueta (OCULTA por defecto) */
-.social-links .tooltip-text {
-    visibility: hidden;
-    opacity: 0;
-    width: auto;
-    background-color: #333; /* Fondo oscuro de la etiqueta */
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 10px;
-    font-size: 0.75rem;
-    white-space: nowrap;
-    
-    /* Posicionamiento arriba del icono */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%; 
-    left: 50%;
-    transform: translateX(-50%);
-    
-    /* Animación de aparición */
-    transition: opacity 0.3s, visibility 0.3s;
-}
-
-/* MOSTRAR etiqueta al pasar el mouse */
-.social-links a.social-icon:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* Cambio de color del icono al pasar el mouse */
-.social-links a.social-icon:hover {
-    color: var(--text-muted, #555);
-}
-
-
-
-        .social-links a:hover {
-            color: var(--accent);
-        }
-
-        .tag {
-            background: #dbeafe;
-            color: #1e40af;
-            padding: 4px 12px;
-            border-radius: 9999px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            margin-right: 5px;
-        }
-
-        .badges-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.badges-container iframe {
-  width: 200px;
-  height: 270px;
-  border: none;
-  transition: transform 0.3s ease;
-}
-
-.badges-container iframe:hover {
-  transform: scale(1.05);
-}
-</style>
-</head>
-<body>
-
+    <!-- Tailwind CSS y FontAwesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: { 950: '#020617' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(51, 65, 85, 0.6);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white min-h-screen flex flex-col">
 
-
-<header>
-    <div class="hero">
-        <h1>MARIO H. MACIEL</h1>
-       <p>Data Analyst | Power BI | SQL | Microsoft Fabric |Supply Chain & Logistics Analytics
-        </p>
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-400 flex items-center justify-center font-black text-white shadow-lg shadow-indigo-500/20">
+                    MM
+                </div>
+                <div>
+                    <span class="font-bold text-lg tracking-tight text-white">MARIO H. MACIEL</span>
+                    <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 font-medium border border-indigo-800/50 ml-2">Data & Supply Chain</span>
+                </div>
+            </div>
             
-            <div class="social-links">
-  <!-- Repite esta estructura para cada icono -->
-              <a href="https://linkedin.com/in/marmaciel"class="social-icon">
-                <i class="fab fa-linkedin"></i> <!-- Tu icono actual -->
-                 <span class="tooltip-text">LinkedIn</span> <!-- La etiqueta que aparecerá -->
-                  </a>
-
-               <a href="proyectos/CV/Mario_Maciel_CV_2026.pdf" class="social-icon">
-                 <i class="fa-solid fa-file-pdf"></i>
-                  <span class="tooltip-text">Curriculum Vitae</span>
+            <!-- Contact Links in Navbar -->
+            <div class="flex items-center gap-4">
+                <a href="https://linkedin.com/in/marmaciel" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-indigo-400 transition-colors flex items-center gap-1.5 text-sm font-semibold">
+                    <i class="fab fa-linkedin text-lg text-[#0077b5]"></i>
+                    <span class="hidden sm:inline">LinkedIn</span>
                 </a>
+                <a href="proyectos/CV/Mario_Maciel_CV_2026.pdf" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-rose-400 transition-colors flex items-center gap-1.5 text-sm font-semibold">
+                    <i class="fa-solid fa-file-pdf text-lg text-rose-500"></i>
+                    <span class="hidden sm:inline">CV</span>
+                </a>
+                <a href="mailto:mario.maciel.tech@outlook.es?subject=Contacto%20desde%20tu%20portfolio" class="text-slate-300 hover:text-cyan-400 transition-colors flex items-center gap-1.5 text-sm font-semibold">
+                    <i class="fas fa-envelope text-lg text-cyan-400"></i>
+                    <span class="hidden sm:inline">Contacto</span>
+                </a>
+            </div>
+        </div>
+    </header>
 
-                <a href="mailto:mario.maciel.tech@outlook.es?subject=Contacto%20desde%20tu%20portfolio" class="social-icon">
-                 <i class="fas fa-envelope"></i>
-                  <span class="tooltip-text">Correo</span>
-                </a> 
+    <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
 
+        <!-- ESTUDIO ESTADÍSTICO COMPLETO: BRECHA DE INGLÉS Y FACTOR ACADÉMICO -->
+        <section class="glass-panel p-8 sm:p-10 rounded-3xl relative overflow-hidden shadow-2xl">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-950 text-indigo-300 border border-indigo-800/50 mb-6">
+                <i class="fas fa-chart-line text-cyan-400"></i>
+                Estudio Científico de Mercado — Sysarmy & OpenQube Data Pipeline
+            </div>
+
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+                El Impacto Cuantitativo del Idioma y el Título en la <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Brecha Salarial IT</span>
+            </h2>
+            
+            <p class="text-slate-300 text-base sm:text-lg mb-8 leading-relaxed">
+                Análisis de validación de mercado que demuestra mediante rigor inferencial (Pruebas <strong class="text-white">t-Student</strong> y <strong class="text-white">Chi-Cuadrado</strong> sobre datos de OpenQube/Sysarmy) cómo la fluidez en el idioma inglés y el factor académico determinan las oportunidades de ingresos en el ecosistema tech.
             </p>
-  
-       
-    </div>
-</header>
 
-<div class="container">
+            <!-- TARJETAS DE IMPACTO (KPIs) -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
+                    <span class="text-xs font-semibold tracking-wider uppercase text-indigo-400">Brecha Salarial Bruta</span>
+                    <div class="text-4xl font-extrabold text-white tracking-tight my-2">+84.5%</div>
+                    <p class="text-slate-400 text-xs">Incremento en la media salarial mensual de profesionales bilingües vs. monolingües.</p>
+                </div>
+
+                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
+                    <span class="text-xs font-semibold tracking-wider uppercase text-emerald-400">Significancia Estadística</span>
+                    <div class="text-4xl font-extrabold text-white tracking-tight my-2">p &lt; 0.0001</div>
+                    <p class="text-slate-400 text-xs">Prueba t de Student (t = 43.96, p = 3.54e-254). Se rechaza H0 con 99.9% de confianza.</p>
+                </div>
+
+                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800">
+                    <span class="text-xs font-semibold tracking-wider uppercase text-cyan-400">Segmento Top 25%</span>
+                    <div class="text-4xl font-extrabold text-white tracking-tight my-2">Chi2 = 867.45</div>
+                    <p class="text-slate-400 text-xs">Asociación dependiente directa (p = 1.16e-190) entre inglés fluido y mayores sueldos.</p>
+                </div>
+            </div>
+
+            <!-- DETALLE DE LAS PRUEBAS ESTADÍSTICAS -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+                <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 font-mono text-xs space-y-2">
+                    <div class="text-white font-bold text-sm mb-3 font-sans">1. Prueba t de Student (Medias Salariales)</div>
+                    <div class="flex justify-between text-slate-300"><span>Media Inglés Fluido:</span><span class="text-emerald-400 font-bold">$4,470,866.78</span></div>
+                    <div class="flex justify-between text-slate-300"><span>Media Inglés Básico:</span><span class="text-slate-400 font-bold">$2,423,863.96</span></div>
+                    <div class="flex justify-between text-slate-300 border-t border-slate-800 pt-2"><span>Estadístico t:</span><span class="text-indigo-400 font-bold">43.9653</span></div>
+                    <div class="flex justify-between text-slate-300"><span>p-value:</span><span class="text-cyan-400 font-bold">3.54169e-254</span></div>
+                </div>
+
+                <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 font-mono text-xs space-y-2">
+                    <div class="text-white font-bold text-sm mb-3 font-sans">2. Prueba Chi-Cuadrado (Cuartil Superior)</div>
+                    <div class="flex justify-between text-slate-300"><span>Contingencia (Básico vs Top):</span><span class="text-rose-400 font-bold">1152 False / 8 True</span></div>
+                    <div class="flex justify-between text-slate-300"><span>Contingencia (Fluido vs Top):</span><span class="text-emerald-400 font-bold">348 False / 492 True</span></div>
+                    <div class="flex justify-between text-slate-300 border-t border-slate-800 pt-2"><span>Estadístico Chi2:</span><span class="text-indigo-400 font-bold">867.4576</span></div>
+                    <div class="flex justify-between text-slate-300"><span>p-value:</span><span class="text-cyan-400 font-bold">1.16492e-190</span></div>
+                </div>
+            </div>
+
+            <!-- MATRIZ DE INTERSECCIÓN -->
+            <h3 class="text-xl font-bold text-white mb-4">Matriz de Intersección: Educación vs. Idioma</h3>
+            <div class="overflow-x-auto mb-8 border border-slate-800 rounded-2xl">
+                <table class="w-full text-left text-sm border-collapse">
+                    <thead>
+                        <tr class="bg-slate-900 text-slate-200 border-b border-slate-800">
+                            <th class="p-4 font-semibold">Perfil del Candidato</th>
+                            <th class="p-4 font-semibold">Estatus con Inglés Básico / Nulo</th>
+                            <th class="p-4 font-semibold">Estatus con Inglés Fluido / Avanzado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800 text-slate-300">
+                        <tr>
+                            <td class="p-4 font-bold text-white bg-slate-900/40">Con Título Universitario / Terciario</td>
+                            <td class="p-4"><strong>Competencia Local Saturada:</strong> El título supera los filtros ATS, pero queda atrapado en la media salarial local (~$2,42M).</td>
+                            <td class="p-4 bg-emerald-950/30 text-emerald-300 font-medium"><strong>Techo Máximo Corporativo:</strong> Perfil codiciado para multinacionales y roles gerenciales con acceso al top de ingresos.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-white bg-slate-900/40">Sin Título (Autodidacta / Bootcamps)</td>
+                            <td class="p-4 bg-rose-950/30 text-rose-300 font-medium"><strong>Zona de Máxima Exclusión:</strong> Doble barrera. El ATS descarta por falta de título y la falta de idioma impide aplicar al exterior.</td>
+                            <td class="p-4 bg-indigo-950/30 text-indigo-300 font-medium"><strong>La Ventana del Talento Real:</strong> La falta de título se compensa con portfolio. El idioma permite saltar al mercado exterior (+84.5%).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- CONCLUSIÓN Y ANÉCDOTA -->
+            <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl mb-6">
+                <h4 class="text-white font-bold text-base mb-2">Conclusión: Hackeando las dos barreras del mercado</h4>
+                <p class="text-slate-300 text-sm mb-4 leading-relaxed">
+                    Durante mi trayectoria en logística viví en carne propia el impacto de esta matriz: la visita de un gerente de la casa matriz en Inglaterra paralizó operativamente a un equipo técnico sólido debido, exclusivamente, a la barrera idiomática. Las empresas piden títulos para filtrar CVs en los ATS, pero lo que realmente recompensa el mercado internacional es la capacidad de resolver problemas en tiempo real con el mundo.
+                </p>
+                <div class="bg-indigo-950/50 border-l-4 border-indigo-500 p-4 rounded-r-xl text-slate-200 italic text-sm">
+                    "Si no contás con un título universitario tradicional y estás construyendo tu camino de forma autodidacta, tu zona de máximo riesgo es quedarte estancado en el mercado local sin idioma. Un portfolio sólido te permite saltar el filtro del título; pero es la fluidez comunicativa lo que te saca de la zona de exclusión. Diseñé este <strong class="text-white">Traductor Voice-to-Voice</strong> como una respuesta directa a ese cuello de botella corporativo."
+                </div>
+            </div>
+
+            <!-- FUENTES -->
+            <div class="border-t border-slate-800 pt-4 text-xs text-slate-500 space-y-1">
+                <p class="font-semibold text-slate-400 uppercase tracking-wider">Metodología y Fuentes de Respaldo:</p>
+                <ul class="list-disc pl-5 space-y-0.5">
+                    <li><strong>Análisis Inferencial (T-Test y Chi2):</strong> Microdatos procesados de la Encuesta de Sueldos de OpenQube.</li>
+                    <li><strong>Métricas ATS y Credenciales:</strong> Estudios de <i>Harvard Business School</i>, <i>Glassdoor Economic Research</i> y <i>SHRM</i>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRÓXIMAMENTE (TRADUCTOR V2V) -->
+        <section class="glass-panel p-8 rounded-3xl text-center relative overflow-hidden">
+            <span class="inline-block bg-indigo-950 text-indigo-300 border border-indigo-800/50 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                PRÓXIMAMENTE — 15 DE NOVIEMBRE
+            </span>
+            <h3 class="text-2xl font-bold text-white mb-4">Traductor Esp-Eng | Free Spanish-English Translator</h3>
+            
+            <p class="text-slate-200 text-base font-medium max-w-2xl mx-auto mb-6">
+                Así nació mi nuevo proyecto: <strong>Ingleslibre</strong></p>
+            <p><strong>Traductor Voice-to-Voice en tiempo real</strong></p>
+            <p>"¿Alguna vez perdiste una oportunidad o sentiste la tensión de no poder comunicarte fluido con el mundo exterior por la barrera del idioma?
+
+En mi experiencia dentro de la logística y los datos, viví en carne propia cómo un equipo técnico brillante puede paralizarse ante un cliente o gerente internacional solo por el bloqueo de la lengua. Los datos demuestran que el inglés no es un lujo, sino el acelerador salarial más grande del mercado tecnológico.
+
+*Por eso desarrollé este Traductor Voice-to-Voice en tiempo real. No es solo una herramienta de traducción: es una solución de arquitectura ligera pensada para romper con la fricción comunicativa. Construido con un backend asíncrono en FastAPI, motorizado por faster-whisper para una transcripción de alta precisión, empaquetado en contenedores Docker y conectado a una interfaz ágil en web app.
+
+Explorá la app, auditá el código y descubrí cómo la tecnología y la ingeniería de datos pueden transformar la comunicación operativa global."</p>
+
+            <div class="bg-slate-900/80 border border-slate-800 p-6 rounded-2xl max-w-2xl mx-auto text-left space-y-3">
+                <h4 class="text-white font-bold text-sm mb-3">🛠️ ¿Cómo lo construí?</h4>
+                <ul class="space-y-2 text-slate-300 text-sm">
+                    <li class="flex items-start gap-2">
+                        <span class="text-indigo-400 font-bold">•</span>
+                        <span><strong class="text-white">FastAPI:</strong> Para estructurar un backend asíncrono, rápido y ligero.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-indigo-400 font-bold">•</span>
+                        <span><strong class="text-white">faster-whisper:</strong> Para la transcripción y procesamiento de audio de alta precisión.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-indigo-400 font-bold">•</span>
+                        <span><strong class="text-white">Docker:</strong> Para empaquetar toda la solución y garantizar que corra de forma consistente en cualquier entorno.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-indigo-400 font-bold">•</span>
+                        <span><strong class="text-white">Web App:</strong> Una interfaz simple para interactuar mediante voz.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- RESUMEN Y ESPECIALIDAD -->
+        <section class="glass-panel p-8 rounded-3xl space-y-6">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-terminal text-indigo-400"></i> Mi Especialidad
+            </h2>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Soy Analista de Datos con experiencia en logística, abastecimiento y gestión de información. Transformo datos en información útil para la toma de decisiones mediante procesos de limpieza, modelado, análisis y visualización. Me especializo en identificar oportunidades de mejora operativa, optimizar procesos y construir soluciones basadas en datos utilizando SQL, Power BI y herramientas de análisis.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Python / Pandas</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">RegEx</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Validation</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">ETL</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Analytics</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Power BI</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">SQL</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">DAX</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Power Query</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Microsoft Fabric</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Modeling</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Visualization</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Business Intelligence</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Git & GitHub</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Excel</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Supply Chain</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Inventory Management</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Logistics Analytics</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Process Improvement</span>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="glass-panel p-8 rounded-3xl space-y-6">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-terminal text-indigo-400"></i> Mis Habilidades
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-300 text-sm">
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-2">
+                    <h3 class="font-bold text-white text-base">📊 Análisis de Datos</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-slate-400">
+                        <li>Exploración y análisis de datos</li>
+                        <li>Interpretación de indicadores (KPIs)</li>
+                        <li>Data Analytics orientado a negocio</li>
+                        <li>Visualización de información</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-2">
+                    <h3 class="font-bold text-white text-base">🗄️ Bases de Datos</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-slate-400">
+                        <li>SQL</li>
+                        <li>Consultas y manipulación de datos</li>
+                        <li>Modelado de datos relacionales</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-2">
+                    <h3 class="font-bold text-white text-base">💻 Herramientas y Tecnologías</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-slate-400">
+                        <li>Python & Pandas</li>
+                        <li>Excel</li>
+                        <li>Git & GitHub</li>
+                        <li>CSV y procesamiento de datos</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-2">
+                    <h3 class="font-bold text-white text-base">🔧 Gestión y Preparación de Datos</h3>
+                    <ul class="list-disc pl-5 space-y-1 text-slate-400">
+                        <li>Limpieza y transformación de datos</li>
+                        <li>Validación y control de calidad</li>
+                        <li>Normalización y estandarización</li>
+                        <li>Detección de errores e inconsistencias</li>
+                        <li>Automatización de procesos de datos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-2 text-slate-300 text-sm">
+                <h3 class="font-bold text-white text-base">🚚 Logística y Supply Chain</h3>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 list-disc pl-5 text-slate-400">
+                    <li>Gestión de inventarios</li>
+                    <li>Abastecimiento</li>
+                    <li>Análisis operativo</li>
+                    <li>Optimización de procesos</li>
+                    <li>Indicadores logísticos</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SQL CERTIFICATION -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-database text-indigo-400"></i> SQL Certification
+            </h2>
+            <img src="proyectos/analisis-quejas-mail-delivery/imagenes/sql.jpg" alt="IBM SQL and Relational Databases 101" class="w-full max-w-2xl rounded-xl border border-slate-800 shadow-lg">
+            <h3 class="font-bold text-white text-lg">SQL and Relational Databases 101</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+                Certificación obtenida a través de IBM SkillsBuild. Formación en bases de datos relacionales, consultas SQL, modelado de datos y fundamentos de gestión de bases de datos.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">SQL</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Databases</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Relational Databases</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">IBM SkillsBuild</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Analytics</span>
+            </div>
+        </section>
+
+        <!-- EIDOS GLOBAL CERTIFICACION -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fa-solid fa-microchip text-indigo-400"></i> Introduction to Generative Artificial Intelligence
+            </h2>
+            <img src="proyectos/analisis-quejas-mail-delivery/imagenes/Certificacion IA.jpg" alt="Generative Artificial Intelligence" class="w-full max-w-2xl rounded-xl border border-slate-800 shadow-lg">
+            <h3 class="font-bold text-white text-lg">EsencIA sobre introducción a la Inteligencia Artificial Generativa</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+                Certificación obtenida a través de Eidos Global y Google.org. Dimensión Orígenes, Protección de Datos, Dominio del Prompt, Creación de la Eficiencia, Perspectiva del Futuro.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2">
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Artificial Intelligence</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Machine Learning</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Generative AI</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">AI Tools</span>
+                <span class="bg-slate-900 border border-slate-800 text-indigo-300 px-3 py-1 rounded-full text-xs font-medium">Data Science</span>
+            </div>
+        </section>
+
+        <!-- CREDENCIALES IBM -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-award text-indigo-400"></i> Credenciales IBM | IBM Credentials
+            </h2>
+            <p class="text-slate-300 text-sm">Certificaciones oficiales obtenidas a través de <strong>Credly</strong>:</p>
+            <div class="flex flex-wrap gap-4 justify-center pt-2">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5f55d8fa-3db0-4581-9987-cf910919d33c" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c213fb22-862d-4d2a-9c69-dca038e6c8e2" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1184c31a-3d0b-483a-ba08-7aa9de463a5b" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f0affa7d-5169-419c-b3fd-7d1efc55f763" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dc3f32a6-0c8d-4615-9a6b-ef97866b87ed" data-share-badge-host="https://www.credly.com"></div>    
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2feaa41d-57f2-4d8c-9928-141af868afeb" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="33fac871-6aa7-4db9-aadc-bde9c168f668" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2e1fde5d-d62f-4843-ac15-4552c711354f" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5e7b007f-f9b3-454c-b398-6a3f4aeb5230" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1b035f9c-f9dd-40d3-9908-b1e51bc6727a" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5521f700-d55e-4e8a-a441-a877a4bf3b0e" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3f2c1f7-348f-43f4-92c8-455a62fcc76c" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d9428d77-92d0-45d3-95f8-2129939bd2b9" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7642ad8a-b418-4ac3-8b1f-a5c551caaf51" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c33bc785-4176-4e6b-80fa-03cdbdfd5ba5" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1f614f12-be50-4385-b59e-8b2ad60ea429" data-share-badge-host="https://www.credly.com"></div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="653bdb9f-0f3a-4a89-a866-46d7a6b919bf" data-share-badge-host="https://www.credly.com"></div>
+            </div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </section>
+
+        <!-- CERTIFICACIONES CISCO -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-certificate text-indigo-400"></i> Certificaciones CISCO | Cisco Certifications
+            </h2>
+            <p class="text-slate-300 text-sm">Certificaciones oficiales obtenidas a través de <strong>Credly</strong></p>
+            <div class="flex justify-center pt-2">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="479bfea6-50bb-40ba-9859-141150fcfa81" data-share-badge-host="https://www.credly.com"></div>
+            </div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+        </section>
+
+        <!-- CERTIFICACIONES BA -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-certificate text-indigo-400"></i> Certificaciones – Ministerio de Educación | Ciudad Autónoma de Buenos Aires
+            </h2>
+            <p class="text-slate-300 text-sm">Certificaciones oficiales obtenidas a través de <strong>Construí tu Futuro</strong></p>
+            <img src="proyectos/analisis-quejas-mail-delivery/imagenes/construi-futuro.jpg" alt="Construí tu Futuro" class="w-full max-w-2xl rounded-xl border border-slate-800 shadow-lg">
+        </section>
+
+        <!-- MICROSOFT LEARN -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>Certificaciones Microsoft Learn</h2>
+
+        <p class="text-slate-300 text-sm"></p>
+            Formación oficial de Microsoft en Data Analytics, Power BI,
+            Data Modeling, DAX y Microsoft Fabric.
+        </p>
+
+        
+
+            <h3>Perfil Microsoft Learn</h3>
+
+            <ul>
+                <li><strong>Nivel:</strong> 6</li>
+                <li><strong>Experiencia acumulada:</strong> 31.950 XP</li>
+                <li><strong>Módulos completados:</strong> 21</li>
+                <li><strong>Learning Paths completados:</strong> 5</li>
+                <li><strong>Próximo nivel:</strong> Nivel 7 (350 XP restantes)</li>
+            </ul>
+
+            <h3>Competencias desarrolladas</h3>
+
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Power Query</span>
+                <span class="tag">DAX</span>
+                <span class="tag">Microsoft Fabric</span>
+                <span class="tag">Data Analytics</span>
+                <span class="tag">Semantic Models</span>
+                <span class="tag">Data Modeling</span>
+                <span class="tag">Copilot</span>
+                <span class="tag">Real-Time Analytics</span>
+                <span class="tag">Model Security</span>
+            </div>
+
+            <h3>Learning Paths destacados</h3>
+
+            <ul>
+                <li>Get Started with Microsoft Data Analytics</li>
+                <li>Prepare Data for Analysis with Power BI</li>
+                <li>Work with Semantic Models in Microsoft Fabric</li>
+                <li>Power BI Data Modeling</li>
+                <li>Microsoft Fabric Analytics</li>
+            </ul>
+
+            <h3>Módulos destacados</h3>
+
+            <ul>
+                <li>Perform Analytics in Power BI</li>
+                <li>Enforce Power BI Model Security</li>
+                <li>Visualize Real-Time Data with Azure Stream Analytics and Power BI</li>
+                <li>Write DAX Formulas for Semantic Models</li>
+                <li>Create DAX Calculations in Semantic Models</li>
+                <li>Design Scalable Semantic Models</li>
+                <li>Configure a Semantic Model</li>
+                <li>Get Data in Power BI</li>
+                <li>Clean, Transform and Load Data in Power BI</li>
+                <li>Microsoft Fabric Fundamentals</li>
+            </ul>
 
             <p>
-                <h3>PROXIMAMENTE</h3>
-
-                <h2>Recurso gratis</h2>
-
-                <h2></i> Traductor  Esp-Eng   |  Free Spanish-English translator </h2>
-                        <h2></i>Practica tu conversacion o Aprende con tus propias palabras</h2>
-
-                        <h3>Aplicación web interactiva desarrollada en Python y Streamlit para la transcripción, traducción e interpretación de voz en tiempo real, optimizada para despliegue en la nube.
-                        </h3>
-
-                    <h3>PROXIMAMENTE</h3>
-
-                        <!-- <a href="https://traductorgratis.streamlit.app/"class="btn">PROBALO / try it</a> -->
-
-                        
+                Actualmente avanzando en la ruta oficial de Microsoft
+                para Data Analyst (PL-300).
             </p>
-
-</div>                    
-
-<div class="container">
-
-    <!-- RESUMEN -->
-    <div class="section">
-        <h2><i class="fas fa-terminal"></i> Mi Especialidad</h2>
-        <p>Soy Analista de Datos con experiencia en logística, abastecimiento y gestión de información. Transformo datos en información útil para la toma de decisiones mediante procesos de limpieza, modelado, análisis y visualización. Me especializo en identificar oportunidades de mejora operativa, optimizar procesos y construir soluciones basadas en datos utilizando SQL, Power BI y herramientas de análisis.
-       </p>
-       
-               
-        <div style="margin-top: 1rem;">
-            <span class="tag">Python / Pandas</span>
-            <span class="tag">RegEx</span>
-            <span class="tag">Data Validation</span>
-            <span class="tag">ETL</span>
-            <span class="tag">Data Analytics</span>
-            <span class="tag">Power BI</span>
-            <span class="tag">SQL</span>
-            <span class="tag">Python</span>
-            <span class="tag">Pandas</span>
-            <span class="tag">DAX</span>
-            <span class="tag">Power Query</span>
-            <span class="tag">Microsoft Fabric</span>
-            <span class="tag">Data Modeling</span>
-            <span class="tag">Data Visualization</span>
-            <span class="tag">Business Intelligence</span>
-            <span class="tag">Git</span>
-            <span class="tag">GitHub</span>
-            <span class="tag">Excel</span>
-            <span class="tag">Supply Chain</span>
-            <span class="tag">Inventory Management</span>
-            <span class="tag">Logistics Analytics</span>
-            <span class="tag">Process Improvement</span>
-</div>
-      
-    <h2><i class="fas fa-terminal"></i>Mis Habilidades</h2>
-
-
-    <h3>📊 Análisis de Datos</h3>
-        <ul> 
-            <li> Exploración y análisis de datos</li>
-            <li> Interpretación de indicadores (KPIs)</li>
-            <li> Data Analytics orientado a negocio</li>
-            <li> Visualización de información</li>
-
-            </ul>
-        <h3>🗄️ Bases de Datos</h3>
-        <ul> 
-            <li>SQL</li>
-            <li>Consultas y manipulación de datos</li>
-            <li>Modelado de datos relacionales</li>
-
-        </ul>
-        
-      <!--  <h3>📈 Business Intelligence</h3>
-        <ul>
-            <li>Power BI</li>
-            <li>Power Query</li>
-            <li>DAX</li>
-            <li>Microsoft Fabric</li>
-            <li>Creación de dashboards e informes interactivos</li>-->
-
-        </ul>
-
-        <h3>💻 Herramientas y Tecnologías</h3>
-        <ul>
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>Excel</li>
-            <li>Git & GitHub</li>
-            <li>CSV y procesamiento de datos</li>
-
-        </ul>
-
-        <h3>🔧 Gestión y Preparación de Datos</h3>
-        <ul>
-            <li>Limpieza y transformación de datos</li>
-            <li>Validación y control de calidad</li>
-            <li>Normalización y estandarización</li>
-            <li>Detección de errores e inconsistencias</li>
-            <li>Automatización de procesos de datos</li>
-
-        </ul>
-
-        <h3>🚚 Logística y Supply Chain</h3>
-        <ul>
-            <li>Gestión de inventarios</li>
-            <li>Abastecimiento</li>
-            <li>Análisis operativo</li>
-            <li>Optimización de procesos</li>
-            <li>Indicadores logísticos</li>  
-        </ul>
-
-        
-<!-- MICROSOFT LEARN -->
-
- <!--<p>   <h2><i class="fab fa-microsoft"></i> Microsoft Learn</h2>
-
-    <p>
-        Formación oficial de Microsoft en Data Analytics, Power BI,
-        Data Modeling, DAX y Microsoft Fabric.
-    </p>
-
-    
-
-        <h3>Perfil Microsoft Learn</h3>
-
-        <ul>
-            <li><strong>Nivel:</strong> 6</li>
-            <li><strong>Experiencia acumulada:</strong> 31.950 XP</li>
-            <li><strong>Módulos completados:</strong> 21</li>
-            <li><strong>Learning Paths completados:</strong> 5</li>
-            <li><strong>Próximo nivel:</strong> Nivel 7 (350 XP restantes)</li>
-        </ul>
-
-        <h3>Competencias desarrolladas</h3>
-
-        <div class="tags">
-            <span class="tag">Power BI</span>
-            <span class="tag">Power Query</span>
-            <span class="tag">DAX</span>
-            <span class="tag">Microsoft Fabric</span>
-            <span class="tag">Data Analytics</span>
-            <span class="tag">Semantic Models</span>
-            <span class="tag">Data Modeling</span>
-            <span class="tag">Copilot</span>
-            <span class="tag">Real-Time Analytics</span>
-            <span class="tag">Model Security</span>
-        </div>
-
-        <h3>Learning Paths destacados</h3>
-
-        <ul>
-            <li>Get Started with Microsoft Data Analytics</li>
-            <li>Prepare Data for Analysis with Power BI</li>
-            <li>Work with Semantic Models in Microsoft Fabric</li>
-            <li>Power BI Data Modeling</li>
-            <li>Microsoft Fabric Analytics</li>
-        </ul>
-
-        <h3>Módulos destacados</h3>
-
-        <ul>
-            <li>Perform Analytics in Power BI</li>
-            <li>Enforce Power BI Model Security</li>
-            <li>Visualize Real-Time Data with Azure Stream Analytics and Power BI</li>
-            <li>Write DAX Formulas for Semantic Models</li>
-            <li>Create DAX Calculations in Semantic Models</li>
-            <li>Design Scalable Semantic Models</li>
-            <li>Configure a Semantic Model</li>
-            <li>Get Data in Power BI</li>
-            <li>Clean, Transform and Load Data in Power BI</li>
-            <li>Microsoft Fabric Fundamentals</li>
-        </ul>
-
-        <p>
-            Actualmente avanzando en la ruta oficial de Microsoft
-            para Data Analyst (PL-300).
-        </p>
-        <h3>Credenciales y Logros Oficiales de Microsoft Learn</h3>
-        
-        <div class="learn-badges-grid">
-         <-- Logro 1 
-          <div class="learn-badge-card">
-            <div class="learn-badge-header">
-              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
-              <span class="learn-tag-source">Microsoft Learn</span>
+            <h3>Credenciales y Logros Oficiales de Microsoft Learn</h3>
+            
+            <div class="learn-badges-grid">
+            <!-- Logro 1 -->
+            <div class="learn-badge-card">
+                <div class="learn-badge-header">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+                <span class="learn-tag-source">Microsoft Learn</span>
+                </div>
+                <h3>Trabajar con modelos semánticos en Microsoft Fabric</h3>
+                <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/U7F5U7U3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
             </div>
-            <h3>Trabajar con modelos semánticos en Microsoft Fabric</h3>
-            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/U7F5U7U3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
-          </div>
 
-          <! Logro 2 
-          <div class="learn-badge-card">
-            <div class="learn-badge-header">
-              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
-              <span class="learn-tag-source">Microsoft Learn</span>
+            <!--Logro 2 -->
+            <div class="learn-badge-card">
+                <div class="learn-badge-header">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+                <span class="learn-tag-source">Microsoft Learn</span>
+                </div>
+                <h3>Modelar datos con Power BI</h3>
+                <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/NQ79K2BF?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
             </div>
-            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
-            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/NQ79K2BF?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
-          </div>
 
-          -- Logro 3 >
-          <div class="learn-badge-card">
-            <div class="learn-badge-header">
-              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
-              <span class="learn-tag-source">Microsoft Learn</span>
+            <!-- Logro 3-->
+            <div class="learn-badge-card">
+                <div class="learn-badge-header">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+                <span class="learn-tag-source">Microsoft Learn</span>
+                </div>
+                <h3>Uso de DAX en los modelos semánticos</h3>
+                <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/JH6EF5ST?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
             </div>
-            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
-            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/JH6EF5ST?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
-          </div>
 
-          -- Logro 4 ->
-          <div class="learn-badge-card">
-            <div class="learn-badge-header">
-              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
-              <span class="learn-tag-source">Microsoft Learn</span>
+            <!-- Logro 4 -->
+            <div class="learn-badge-card">
+                <div class="learn-badge-header">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+                <span class="learn-tag-source">Microsoft Learn</span>
+                </div>
+                <h3>Introducción al análisis de datos de Microsoft</h3>
+                <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/9RES3JTU?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
             </div>
-            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
-            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/9RES3JTU?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
-          </div>
 
-         -- Logro 5 ->
-          <div class="learn-badge-card">
-            <div class="learn-badge-header">
-              <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
-              <span class="learn-tag-source">Microsoft Learn</span>
-            </div>
-            <h3>Logro / Ruta de Aprendizaje de Microsoft Learn</h3>
-            <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/UAP5HBJ3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
-        -->
-
-    </div>
-        
-    
-      <!-- IBM SQL CERTIFICATION -->
-
-    <h2><i class="fas fa-database"></i> SQL Certification</h2>
-
-
-
-        <img src="proyectos/analisis-quejas-mail-delivery/imagenes/sql.jpg"
-             alt="IBM SQL and Relational Databases 101"
-             style="width:100%;max-width:700px;border-radius:10px;margin-bottom:15px;">
-
-        <h3>SQL and Relational Databases 101</h3>
-
-        <p>
-            Certificación obtenida a través de IBM SkillsBuild.
-            Formación en bases de datos relacionales, consultas SQL,
-            modelado de datos y fundamentos de gestión de bases de datos.
-        </p>
-
-        <div class="tags">
-            <span class="tag">SQL</span>
-            <span class="tag">Databases</span>
-            <span class="tag">Relational Databases</span>
-            <span class="tag">IBM SkillsBuild</span>
-            <span class="tag">Data Analytics</span>
-
-
-        <!-- Eidos Global certificacion -->
-
-    <h2><<i class="fa-solid fa-microchip"></i>></i> Introduction to Generative Artificial Intelligence</h2>
-
-
-
-        <img src="proyectos/analisis-quejas-mail-delivery/imagenes/Certificacion IA.jpg"
-             alt="Generative Artificial Intelligence"
-             style="width:100%;max-width:700px;border-radius:10px;margin-bottom:15px;">
-
-        <h3> EsencIA sobre introducción a la Inteligencia Artificial Generativa</h3>
-
-        <p>
-            Certificación obtenida a través de  Eidos Global y Google.org.
-            Dimensión Orígenes,Protección de Datos,Dominio del Prompt,
-            Creación de la Eficiencia ,Perspectiva del Futuro </p>
-
-         <div class="tags">
-            <span class="tag">Artificial Intelligence</span>
-            <span class="tag">Machine Learning</span>
-            <span class="tag">Generative AI</span>
-            <span class="tag">AI Tools</span>
-            <span class="tag">Data Science</span>
+            <!-- Logro 5 -->
+            <div class="learn-badge-card">
+                <div class="learn-badge-header">
+                <i class="fab fa-microsoft" style="color: #0078d4; font-size: 1.2rem;"></i>
+                <span class="learn-tag-source">Microsoft Learn</span>
+                </div>
+                <h3>Preparación de datos para el análisis con Power BI</h3>
+                <a href="https://learn.microsoft.com/api/achievements/share/es-es/mariomaciel-5428/UAP5HBJ3?sharingId=4C3AE9B8DE291FDF" target="_blank" rel="noopener noreferrer" class="learn-badge-btn">Ver Credencial</a>
+            
         </div>
 
 
-            
+
+        <!-- PROYECTOS DESTACADOS -->
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                </i>Proyectos </h2>
 
 
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-flask text-indigo-400"></i> Laboratorio de Datos Retail | Retail Data Laboratory
+            </h2>
+            <h3 class="font-bold text-white text-lg">Retail Pulse — Plataforma e inteligencia de precios competitivos</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+                Retail Pulse es una plataforma analítica desarrollada en Python diseñada para automatizar el monitoreo de precios, la consolidación de matrices competitivas y la generación de reportes ejecutivos entre las principales cadenas de retail de consumo masivo en Argentina (Carrefour, Coto y Jumbo).
+            </p>
+            <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/retail_pulse" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-5 py-2.5 rounded-xl text-sm transition-all shadow-lg shadow-indigo-600/20">Ver Repositorio del Proyecto</a>    
+        </section>
 
-<!-- CERTIFICACIONES (AQUÍ VAN LOS BADGES) -->
-
-    <h2><i class="fas fa-award"></i> Credenciales IBM | IBM Credentials   </h2>
-    <p>Certificaciones oficiales obtenidas a través de <strong>Credly</strong>:</p>
-
-
-            
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5f55d8fa-3db0-4581-9987-cf910919d33c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>       
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c213fb22-862d-4d2a-9c69-dca038e6c8e2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1184c31a-3d0b-483a-ba08-7aa9de463a5b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f0affa7d-5169-419c-b3fd-7d1efc55f763" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dc3f32a6-0c8d-4615-9a6b-ef97866b87ed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>    
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2feaa41d-57f2-4d8c-9928-141af868afeb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="33fac871-6aa7-4db9-aadc-bde9c168f668" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2e1fde5d-d62f-4843-ac15-4552c711354f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5e7b007f-f9b3-454c-b398-6a3f4aeb5230" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1b035f9c-f9dd-40d3-9908-b1e51bc6727a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5521f700-d55e-4e8a-a441-a877a4bf3b0e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b3f2c1f7-348f-43f4-92c8-455a62fcc76c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d9428d77-92d0-45d3-95f8-2129939bd2b9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7642ad8a-b418-4ac3-8b1f-a5c551caaf51" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c33bc785-4176-4e6b-80fa-03cdbdfd5ba5" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1f614f12-be50-4385-b59e-8b2ad60ea429" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="653bdb9f-0f3a-4a89-a866-46d7a6b919bf" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-            
-    <p> Otras Certificaciones oficiales IBM  obtenidas a través de <strong>Credly</strong></p>
-            
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="21c9bd7b-467b-44e0-9633-c9804306bbff" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2812c9c2-064d-446f-8329-2a7cfab62ec9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c2c672fe-52dd-4e8e-9c59-8833ddfae46d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7dd2a880-832f-4881-99b0-bfce37fcf62a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-        
-            
-           
-            <!-- FIN DE TUS EMBED CODES -->
-
-   	                 
-    
-
-    <h2><i class="fas fa-certificate"></i> Certificaciones CISCO | Cisco Certifications </h2>
-        <p>Certificaciones oficiales obtenidas a través de <strong>Credly</strong> </p>
-            
-        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="479bfea6-50bb-40ba-9859-141150fcfa81" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            
-
-        
-    
-        <h2><i class="fas fa-certificate"></i> 
-        Certificaciones – Ministerio de Educación | Ciudad Autónoma de Buenos Aires
-        </h2>
-
-        <p>Certificaciones oficiales obtenidas a través de <strong>Construí tu Futuro</strong> |
-        </p>
-
-
-            <img src="proyectos/analisis-quejas-mail-delivery/imagenes/construi-futuro.jpg"
-    
-
-    
-        
-          
-       
-            !-- PROYECTOS DESTACADOS-->
-
-
-    <h2><i class="fas fa-flask"></i> Laboratorio de Datos Retail   |  Retail Data Laboratory </h2>
-    <h2><i class="fas fa-flask"></i>Retail Pulse — Plataforma e inteligencia de precios competitivos| Retail Pulse — Platform & Competitive Price Intelligence</h2>
-
-            <h3>Retail Pulse es una plataforma analítica desarrollada en Python diseñada para automatizar el monitoreo de precios, la consolidación de matrices competitivas y la generación de reportes ejecutivos entre las principales cadenas de retail de consumo masivo en Argentina (Carrefour, Coto y Jumbo).|
-                Retail Pulse is a Python-based analytics platform designed to automate price monitoring, the consolidation of competitive matrices, and the generation of executive reports for major mass-market retail chains in Argentina (Carrefour, Coto, and Jumbo).
-        </h3>
-
-    <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/retail_pulse" class="btn">Ver Repositorio del Proyecto</a>    
-
-
-
-    <h2><i class="fas fa-flask"></i> Laboratorio de Datos Urbanos  |  Urban data Lab </h2>
-            
-    <h2><i class="fas fa-flask"></i>Urban Mining Economics in Argentina | Economía de la minería urbana en Argentina </h2>
-    
-            <h3>Developed a complete data analytics case study using Python, Pandas, Jupyter Notebook and Streamlit to evaluate the profitability of urban copper recycling through ROI analysis and economic modeling.
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-flask text-indigo-400"></i> Laboratorio de Datos Urbanos | Urban Data Lab
+            </h2>
+            <h3 class="font-bold text-white text-lg">Urban Mining Economics in Argentina | Economía de la minería urbana en Argentina</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
                 Desarrollé un estudio de caso completo de análisis de datos utilizando Python, Pandas, Jupyter Notebook y Streamlit para evaluar la rentabilidad del reciclaje urbano de cobre a través del análisis del retorno de la inversión y la modelización económica.
-        </h3>
-        <a href="https://copper-recycling-decision-system-tbkkp9iwjlvlvmsjuyyizb.streamlit.app/"class="btn">link streamlit</a>
+            </p>
+            <a href="https://copper-recycling-decision-system-tbkkp9iwjlvlvmsjuyyizb.streamlit.app/" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-5 py-2.5 rounded-xl text-sm transition-all shadow-lg shadow-indigo-600/20">Probar en Streamlit</a>
+        </section>
 
+        <section class="glass-panel p-8 rounded-3xl space-y-4">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-flask text-indigo-400"></i> Laboratorio de Datos en Logística | Logistics Data Lab
+            </h2>
+            <h3 class="font-bold text-white text-lg">📊 Evaluación de la Calidad de Datos - Archivo Maestro de Logística</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+                Este proyecto analiza la calidad y exhaustividad de un archivo maestro de datos logísticos utilizado para la gestión de inventarios, almacenamiento y distribución. El objetivo es identificar datos faltantes y medir el impacto de los atributos críticos en la toma de decisiones operativas.
+            </p>
+            <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/Proyecto_Master_Data_Quality" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-5 py-2.5 rounded-xl text-sm transition-all shadow-lg shadow-indigo-600/20">Ver Repositorio del Proyecto</a>
+        </section>
 
-
-
-    <h2><i class="fas fa-flask"></i> Laboratorio de Datos en logistica  | Logistics data Lab </h2>
-    
-    <h3>📊 Evaluación de la Calidad de Datos - Archivo Maestro de Logística</h3>
-    <p>Este proyecto analiza la calidad y exhaustividad de un archivo maestro de datos logísticos utilizado para la gestión de inventarios, almacenamiento y distribución.
-        El objetivo es identificar datos faltantes y medir el impacto de los atributos críticos en la toma de decisiones operativas.</p>
-        
-    <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/Proyecto_Master_Data_Quality" class="btn">Ver Repositorio del Proyecto</a>
-        
+        <section class="glass-panel p-8 rounded-3xl space-y-6">
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3 border-l-4 border-indigo-500 pl-3">
+                <i class="fas fa-flask text-indigo-400"></i> Laboratorio de Datos | Data Lab
+            </h2>
             
+            <div class="space-y-2 border-b border-slate-800 pb-6">
+                <h3 class="font-bold text-white text-base">E-commerce Data Cleaning Challenge</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Procesamiento de 5,000 registros con inconsistencias en 100 columnas. Normalización de monedas, fechas y limpieza profunda de texto con Pandas.</p>
+                <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/limpieza-ecommerce" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-4 py-2 rounded-xl text-xs transition-all mt-2">Ver Repositorio</a>
+            </div>
 
-    <h2><i class="fas fa-flask"></i> Laboratorio de Datos | Data Lab </h2>
-    <div class="section">
-        <h3>E-commerce Data Cleaning Challenge</h3>
-        <p>Procesamiento de 5,000 registros con inconsistencias en 100 columnas. Normalización de monedas, fechas y limpieza profunda de texto con Pandas.</p>
-           
-        <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/limpieza-ecommerce" class="btn">Ver Repositorio del Proyecto</a>
+            <div class="space-y-2">
+                <h3 class="font-bold text-white text-base">Análisis de Quejas por Email – Empresa de Entregas a Domicilio</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Generación de dataset de 1,200 emails de quejas. Limpieza de datos, clasificación por tipo de queja y análisis por zona y fecha.</p>
+                <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/analisis-quejas-mail-delivery" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-4 py-2 rounded-xl text-xs transition-all mt-2">Ver Repositorio</a>
+            </div>
+        </section>
 
-        <h3>Análisis de Quejas por Email – Empresa de Entregas a Domicilio</h3>
-        <p>Generación de dataset de 1,200 emails de quejas. Limpieza de datos, clasificación por tipo de queja y análisis por zona y fecha.</p>
-        
-        <a href="https://github.com/marhermac/mariomaciel/tree/main/proyectos/analisis-quejas-mail-delivery" class="btn">Ver Repositorio del Proyecto</a>
+    </main>
 
-    </div>
-</div>
-
-<!-- SCRIPT DE CREDLY (Carga una sola vez para todos los badges) -->
-<script type="text/javascript" async src="//://cdn.credly.com"></script>
-
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-xs text-slate-500 mt-12">
+        <p>&copy; 2026 Mario H. Maciel. Todos los derechos reservados. Portafolio profesional de Data & Supply Chain Analytics.</p>
+    </footer>
 
 </body>
 </html>
