@@ -26,6 +26,8 @@
             backdrop-filter: blur(12px);
             border: 1px solid rgba(51, 65, 85, 0.6);
         }
+        .skiptranslate iframe { display: none !important; }
+        body { top: 0px !important; }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white min-h-screen flex flex-col">
@@ -42,7 +44,19 @@
                     <span class="text-xs px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 font-medium border border-indigo-800/50 ml-2">Data & Supply Chain</span>
                 </div>
             </div>
-            
+                        
+        <!-- Botón flotante o de cabecera para traducir al inglés -->
+        <div class="fixed top-4 right-4 z-50">
+            <button 
+                id="btn-translate-en" 
+                onclick="translateToEnglish()" 
+                class="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold text-white bg-indigo-600 hover:bg-indigo-700 rounded-full shadow-lg shadow-indigo-600/30 transition cursor-pointer border border-indigo-500/50">
+                🌐 In English? Click here
+            </button>
+            <!-- Contenedor oculto obligatorio para el motor de traducción -->
+            <div id="google_translate_element" class="hidden"></div>
+        </div>
+
             <!-- Contact Links in Navbar -->
             <div class="flex items-center gap-4">
                 <a href="https://linkedin.com/in/marmaciel" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-indigo-400 transition-colors flex items-center gap-1.5 text-sm font-semibold">
@@ -183,7 +197,7 @@
                     ¿Alguna vez perdiste una oportunidad o sentiste la tensión de no poder comunicarte fluido con el mundo exterior por la barrera del idioma? En mi experiencia dentro de la logística y los datos, viví en carne propia cómo un equipo técnico brillante puede paralizarse ante un cliente o gerente internacional solo por el bloqueo de la lengua. Los datos demuestran que el inglés no es un lujo, sino el acelerador salarial más grande del mercado tecnológico.
                 </p>
                 <p>
-                    Por eso desarrollé este Traductor Voice-to-Voice en tiempo real. No es solo una herramienta de traducción: es una solución de arquitectura ligera pensada para romper con la fricción comunicativa. Construido con un backend asíncrono en FastAPI, motorizado por faster-whisper para una transcripción de alta precisión, empaquetado en contenedores Docker y conectado a una interfaz ágil en web app.
+                    Por eso desarrollé este Traductor Voice-to-Voice en tiempo real. No es solo una herramienta de traducción: es una solución de arquitectura ligera pensada para romper con la fricción comunicativa. Construido con un backend asíncrono en <span class="notranslate">FastAPI</span>, motorizado por <span class="notranslate">faster-whisper</span> para una transcripción de alta precisión, desplegado de forma nativa en un servidor <span class="notranslate">Linux VPS</span> optimizado y conectado a una interfaz ágil en web app.
                 </p>
                 <p class="italic text-slate-400 text-sm text-center">
                     Explorá la app, auditá el código y descubrí cómo la tecnología y la ingeniería de datos pueden transformar la comunicación operativa global.
@@ -195,19 +209,19 @@
                 <ul class="space-y-2 text-slate-300 text-sm">
                     <li class="flex items-start gap-2">
                         <span class="text-indigo-400 font-bold">•</span>
-                        <span><strong class="text-white">FastAPI:</strong> Para estructurar un backend asíncrono, rápido y ligero.</span>
+                        <span><strong class="text-white notranslate">FastAPI:</strong> Para estructurar un backend asíncrono, rápido y ligero.</span>
                     </li>
                     <li class="flex items-start gap-2">
                         <span class="text-indigo-400 font-bold">•</span>
-                        <span><strong class="text-white">faster-whisper:</strong> Para la transcripción y procesamiento de audio de alta precisión.</span>
+                        <span><strong class="text-white notranslate">faster-whisper &amp; edge-tts:</strong> Para la transcripción de alta precisión y síntesis de voz natural en tiempo real.</span>
                     </li>
                     <li class="flex items-start gap-2">
                         <span class="text-indigo-400 font-bold">•</span>
-                        <span><strong class="text-white">Docker:</strong> Para empaquetar toda la solución y garantizar que corra de forma consistente en cualquier entorno.</span>
+                        <span><strong class="text-white">Despliegue Nativo en <span class="notranslate">Linux VPS</span>:</strong> Configurado directamente sobre el servidor con gestión de procesos y SSL para máxima velocidad y baja latencia.</span>
                     </li>
                     <li class="flex items-start gap-2">
                         <span class="text-indigo-400 font-bold">•</span>
-                        <span><strong class="text-white">Web App:</strong> Una interfaz simple y responsiva para interactuar mediante voz.</span>
+                        <span><strong class="text-white">Web App:</strong> Una interfaz simple y responsiva para interactuar mediante voz desde cualquier dispositivo.</span>
                     </li>
                 </ul>
             </div>
@@ -618,5 +632,36 @@
         <p>&copy; 2026 Mario H. Maciel. Todos los derechos reservados. Portafolio profesional de Data & Supply Chain Analytics.</p>
     </footer>
 
+   <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'en,es',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        let isEnglish = false;
+
+        function translateToEnglish() {
+            const select = document.querySelector('.goog-te-combo');
+            const btn = document.getElementById('btn-translate-en');
+            
+            if (!select) return;
+
+            if (!isEnglish) {
+                select.value = 'en';
+                select.dispatchEvent(new Event('change'));
+                btn.innerHTML = '🇦🇷 Ver en Español';
+                isEnglish = true;
+            } else {
+                select.value = 'es';
+                select.dispatchEvent(new Event('change'));
+                btn.innerHTML = '🌐 In English? Click here';
+                isEnglish = false;
+            }
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
